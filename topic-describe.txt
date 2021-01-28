@@ -1,0 +1,935 @@
+Topic:ABANDON   PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: ABANDON  Partition: 0    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: ABANDON  Partition: 1    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: ABANDON  Partition: 2    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+Topic:ACCOUNTING-COMPUTED-PROVISIONAL-INTEREST  PartitionCount:5        ReplicationFactor:3     Configs:
+        Topic: ACCOUNTING-COMPUTED-PROVISIONAL-INTEREST Partition: 0    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: ACCOUNTING-COMPUTED-PROVISIONAL-INTEREST Partition: 1    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: ACCOUNTING-COMPUTED-PROVISIONAL-INTEREST Partition: 2    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: ACCOUNTING-COMPUTED-PROVISIONAL-INTEREST Partition: 3    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: ACCOUNTING-COMPUTED-PROVISIONAL-INTEREST Partition: 4    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+Topic:ACCOUNTING-CUSTOMER-CREATION      PartitionCount:5        ReplicationFactor:3     Configs:
+        Topic: ACCOUNTING-CUSTOMER-CREATION     Partition: 0    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: ACCOUNTING-CUSTOMER-CREATION     Partition: 1    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: ACCOUNTING-CUSTOMER-CREATION     Partition: 2    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: ACCOUNTING-CUSTOMER-CREATION     Partition: 3    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: ACCOUNTING-CUSTOMER-CREATION     Partition: 4    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+Topic:ACCOUNTING-DEMAND-HEADERS-ORACLE-SYNC     PartitionCount:5        ReplicationFactor:3     Configs:
+        Topic: ACCOUNTING-DEMAND-HEADERS-ORACLE-SYNC    Partition: 0    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: ACCOUNTING-DEMAND-HEADERS-ORACLE-SYNC    Partition: 1    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: ACCOUNTING-DEMAND-HEADERS-ORACLE-SYNC    Partition: 2    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: ACCOUNTING-DEMAND-HEADERS-ORACLE-SYNC    Partition: 3    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: ACCOUNTING-DEMAND-HEADERS-ORACLE-SYNC    Partition: 4    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+Topic:ACCOUNTING-DEMAND-HEADERS-ORACLE-SYNC1    PartitionCount:5        ReplicationFactor:3     Configs:
+        Topic: ACCOUNTING-DEMAND-HEADERS-ORACLE-SYNC1   Partition: 0    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: ACCOUNTING-DEMAND-HEADERS-ORACLE-SYNC1   Partition: 1    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: ACCOUNTING-DEMAND-HEADERS-ORACLE-SYNC1   Partition: 2    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: ACCOUNTING-DEMAND-HEADERS-ORACLE-SYNC1   Partition: 3    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: ACCOUNTING-DEMAND-HEADERS-ORACLE-SYNC1   Partition: 4    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+Topic:ACCOUNTING-DEMAND-HEADERS-ORACLE-SYNC2    PartitionCount:5        ReplicationFactor:3     Configs:
+        Topic: ACCOUNTING-DEMAND-HEADERS-ORACLE-SYNC2   Partition: 0    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: ACCOUNTING-DEMAND-HEADERS-ORACLE-SYNC2   Partition: 1    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: ACCOUNTING-DEMAND-HEADERS-ORACLE-SYNC2   Partition: 2    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: ACCOUNTING-DEMAND-HEADERS-ORACLE-SYNC2   Partition: 3    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: ACCOUNTING-DEMAND-HEADERS-ORACLE-SYNC2   Partition: 4    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+Topic:ACCOUNTING-DEMAND-LINE-ORACLE-SYNC        PartitionCount:5        ReplicationFactor:3     Configs:
+        Topic: ACCOUNTING-DEMAND-LINE-ORACLE-SYNC       Partition: 0    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: ACCOUNTING-DEMAND-LINE-ORACLE-SYNC       Partition: 1    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: ACCOUNTING-DEMAND-LINE-ORACLE-SYNC       Partition: 2    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: ACCOUNTING-DEMAND-LINE-ORACLE-SYNC       Partition: 3    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: ACCOUNTING-DEMAND-LINE-ORACLE-SYNC       Partition: 4    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+Topic:ACCOUNTING-DEMAND-LINE-SYNC-ORACLE        PartitionCount:5        ReplicationFactor:3     Configs:
+        Topic: ACCOUNTING-DEMAND-LINE-SYNC-ORACLE       Partition: 0    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: ACCOUNTING-DEMAND-LINE-SYNC-ORACLE       Partition: 1    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: ACCOUNTING-DEMAND-LINE-SYNC-ORACLE       Partition: 2    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: ACCOUNTING-DEMAND-LINE-SYNC-ORACLE       Partition: 3    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: ACCOUNTING-DEMAND-LINE-SYNC-ORACLE       Partition: 4    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+Topic:ACCOUNTING-DEMANDS-APPLICATION    PartitionCount:5        ReplicationFactor:3     Configs:
+        Topic: ACCOUNTING-DEMANDS-APPLICATION   Partition: 0    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: ACCOUNTING-DEMANDS-APPLICATION   Partition: 1    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: ACCOUNTING-DEMANDS-APPLICATION   Partition: 2    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: ACCOUNTING-DEMANDS-APPLICATION   Partition: 3    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: ACCOUNTING-DEMANDS-APPLICATION   Partition: 4    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+Topic:ACCOUNTING-INVOICE-GENERATION     PartitionCount:5        ReplicationFactor:3     Configs:
+        Topic: ACCOUNTING-INVOICE-GENERATION    Partition: 0    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: ACCOUNTING-INVOICE-GENERATION    Partition: 1    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: ACCOUNTING-INVOICE-GENERATION    Partition: 2    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: ACCOUNTING-INVOICE-GENERATION    Partition: 3    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: ACCOUNTING-INVOICE-GENERATION    Partition: 4    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+Topic:ACCOUNTING-ITBA-NONCPC-DEMAND     PartitionCount:5        ReplicationFactor:3     Configs:
+        Topic: ACCOUNTING-ITBA-NONCPC-DEMAND    Partition: 0    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: ACCOUNTING-ITBA-NONCPC-DEMAND    Partition: 1    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: ACCOUNTING-ITBA-NONCPC-DEMAND    Partition: 2    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: ACCOUNTING-ITBA-NONCPC-DEMAND    Partition: 3    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: ACCOUNTING-ITBA-NONCPC-DEMAND    Partition: 4    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+Topic:ACCOUNTING-MANUAL-ORDER   PartitionCount:5        ReplicationFactor:3     Configs:
+        Topic: ACCOUNTING-MANUAL-ORDER  Partition: 0    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: ACCOUNTING-MANUAL-ORDER  Partition: 1    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: ACCOUNTING-MANUAL-ORDER  Partition: 2    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: ACCOUNTING-MANUAL-ORDER  Partition: 3    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: ACCOUNTING-MANUAL-ORDER  Partition: 4    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+Topic:ACCOUNTING-OLTASCHALLAN-APPLICATION       PartitionCount:5        ReplicationFactor:3     Configs:
+        Topic: ACCOUNTING-OLTASCHALLAN-APPLICATION      Partition: 0    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: ACCOUNTING-OLTASCHALLAN-APPLICATION      Partition: 1    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: ACCOUNTING-OLTASCHALLAN-APPLICATION      Partition: 2    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: ACCOUNTING-OLTASCHALLAN-APPLICATION      Partition: 3    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: ACCOUNTING-OLTASCHALLAN-APPLICATION      Partition: 4    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+Topic:ACCOUNTING-OPEN-DEMANDS-PROVISIONAL       PartitionCount:5        ReplicationFactor:3     Configs:
+        Topic: ACCOUNTING-OPEN-DEMANDS-PROVISIONAL      Partition: 0    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: ACCOUNTING-OPEN-DEMANDS-PROVISIONAL      Partition: 1    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: ACCOUNTING-OPEN-DEMANDS-PROVISIONAL      Partition: 2    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: ACCOUNTING-OPEN-DEMANDS-PROVISIONAL      Partition: 3    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: ACCOUNTING-OPEN-DEMANDS-PROVISIONAL      Partition: 4    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+Topic:ACCOUNTING-PENALTY-ORDER  PartitionCount:5        ReplicationFactor:3     Configs:
+        Topic: ACCOUNTING-PENALTY-ORDER Partition: 0    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: ACCOUNTING-PENALTY-ORDER Partition: 1    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: ACCOUNTING-PENALTY-ORDER Partition: 2    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: ACCOUNTING-PENALTY-ORDER Partition: 3    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: ACCOUNTING-PENALTY-ORDER Partition: 4    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+Topic:ACCOUNTING-RECEIPTS-INWARDING     PartitionCount:5        ReplicationFactor:3     Configs:
+        Topic: ACCOUNTING-RECEIPTS-INWARDING    Partition: 0    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: ACCOUNTING-RECEIPTS-INWARDING    Partition: 1    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: ACCOUNTING-RECEIPTS-INWARDING    Partition: 2    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: ACCOUNTING-RECEIPTS-INWARDING    Partition: 3    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: ACCOUNTING-RECEIPTS-INWARDING    Partition: 4    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+Topic:COMMUNICATION     PartitionCount:5        ReplicationFactor:3     Configs:
+        Topic: COMMUNICATION    Partition: 0    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: COMMUNICATION    Partition: 1    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: COMMUNICATION    Partition: 2    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: COMMUNICATION    Partition: 3    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: COMMUNICATION    Partition: 4    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+Topic:COND-SER-REQ      PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: COND-SER-REQ     Partition: 0    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: COND-SER-REQ     Partition: 1    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: COND-SER-REQ     Partition: 2    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+Topic:CORRECTION-SOURCE-TOPIC-CHLN_XCHG_STG     PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: CORRECTION-SOURCE-TOPIC-CHLN_XCHG_STG    Partition: 0    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: CORRECTION-SOURCE-TOPIC-CHLN_XCHG_STG    Partition: 1    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: CORRECTION-SOURCE-TOPIC-CHLN_XCHG_STG    Partition: 2    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+Topic:CPC-OUTWARD-COMMUNICATION PartitionCount:5        ReplicationFactor:3     Configs:
+        Topic: CPC-OUTWARD-COMMUNICATION        Partition: 0    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: CPC-OUTWARD-COMMUNICATION        Partition: 1    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: CPC-OUTWARD-COMMUNICATION        Partition: 2    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: CPC-OUTWARD-COMMUNICATION        Partition: 3    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: CPC-OUTWARD-COMMUNICATION        Partition: 4    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+Topic:CPC-STAGGING-COMMUNICATION        PartitionCount:5        ReplicationFactor:3     Configs:
+        Topic: CPC-STAGGING-COMMUNICATION       Partition: 0    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: CPC-STAGGING-COMMUNICATION       Partition: 1    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: CPC-STAGGING-COMMUNICATION       Partition: 2    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: CPC-STAGGING-COMMUNICATION       Partition: 3    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: CPC-STAGGING-COMMUNICATION       Partition: 4    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+Topic:DATAINWARDING     PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: DATAINWARDING    Partition: 0    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: DATAINWARDING    Partition: 1    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: DATAINWARDING    Partition: 2    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+Topic:DI-HIGH-PRIORITY  PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: DI-HIGH-PRIORITY Partition: 0    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: DI-HIGH-PRIORITY Partition: 1    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: DI-HIGH-PRIORITY Partition: 2    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+Topic:DI-LOW-PRIORITY   PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: DI-LOW-PRIORITY  Partition: 0    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: DI-LOW-PRIORITY  Partition: 1    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: DI-LOW-PRIORITY  Partition: 2    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+Topic:Dev-ops   PartitionCount:5        ReplicationFactor:3     Configs:cleanup.policy=delete,max.message.bytes=1000012,min.insync.replicas=2,retention.ms=86400000,retention.bytes=10737418240,delete.retention.ms=86400000
+        Topic: Dev-ops  Partition: 0    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: Dev-ops  Partition: 1    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: Dev-ops  Partition: 2    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: Dev-ops  Partition: 3    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: Dev-ops  Partition: 4    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+Topic:EFILING-FS-LINKAADHAAR    PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: EFILING-FS-LINKAADHAAR   Partition: 0    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: EFILING-FS-LINKAADHAAR   Partition: 1    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: EFILING-FS-LINKAADHAAR   Partition: 2    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+Topic:EFILING-FS-MYBANKACCOUNT  PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: EFILING-FS-MYBANKACCOUNT Partition: 0    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: EFILING-FS-MYBANKACCOUNT Partition: 1    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: EFILING-FS-MYBANKACCOUNT Partition: 2    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+Topic:EFILING-FS-MYDEMATACCOUNT PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: EFILING-FS-MYDEMATACCOUNT        Partition: 0    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: EFILING-FS-MYDEMATACCOUNT        Partition: 1    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: EFILING-FS-MYDEMATACCOUNT        Partition: 2    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+Topic:EFILING-FS-VERIFYBULKPANTAN       PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: EFILING-FS-VERIFYBULKPANTAN      Partition: 0    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: EFILING-FS-VERIFYBULKPANTAN      Partition: 1    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: EFILING-FS-VERIFYBULKPANTAN      Partition: 2    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+Topic:EFILING-IF-FORMSPROCESS   PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: EFILING-IF-FORMSPROCESS  Partition: 0    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: EFILING-IF-FORMSPROCESS  Partition: 1    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: EFILING-IF-FORMSPROCESS  Partition: 2    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+Topic:EFILING-IR-RETURNPROCESS  PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: EFILING-IR-RETURNPROCESS Partition: 0    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: EFILING-IR-RETURNPROCESS Partition: 1    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: EFILING-IR-RETURNPROCESS Partition: 2    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+Topic:EFILING-IR-VERIFICATIONPROCESS    PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: EFILING-IR-VERIFICATIONPROCESS   Partition: 0    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: EFILING-IR-VERIFICATIONPROCESS   Partition: 1    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: EFILING-IR-VERIFICATIONPROCESS   Partition: 2    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+Topic:EFILING-ITRPAN-SOURCE-NEW-ITR_PAN PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: EFILING-ITRPAN-SOURCE-NEW-ITR_PAN        Partition: 0    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: EFILING-ITRPAN-SOURCE-NEW-ITR_PAN        Partition: 1    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: EFILING-ITRPAN-SOURCE-NEW-ITR_PAN        Partition: 2    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+Topic:EXTENDED-HEALTH-CHECK     PartitionCount:7        ReplicationFactor:3     Configs:
+        Topic: EXTENDED-HEALTH-CHECK    Partition: 0    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: EXTENDED-HEALTH-CHECK    Partition: 1    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: EXTENDED-HEALTH-CHECK    Partition: 2    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: EXTENDED-HEALTH-CHECK    Partition: 3    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: EXTENDED-HEALTH-CHECK    Partition: 4    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: EXTENDED-HEALTH-CHECK    Partition: 5    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: EXTENDED-HEALTH-CHECK    Partition: 6    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+Topic:Error-Topic       PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: Error-Topic      Partition: 0    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: Error-Topic      Partition: 1    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: Error-Topic      Partition: 2    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+Topic:FOBO-SER-REQ      PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: FOBO-SER-REQ     Partition: 0    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: FOBO-SER-REQ     Partition: 1    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: FOBO-SER-REQ     Partition: 2    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+Topic:FOBO-SER-RES      PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: FOBO-SER-RES     Partition: 0    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: FOBO-SER-RES     Partition: 1    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: FOBO-SER-RES     Partition: 2    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+Topic:HEALTH-CHECK      PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: HEALTH-CHECK     Partition: 0    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: HEALTH-CHECK     Partition: 1    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: HEALTH-CHECK     Partition: 2    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+Topic:INTERESTCALCULATION       PartitionCount:1        ReplicationFactor:2     Configs:
+        Topic: INTERESTCALCULATION      Partition: 0    Leader: 1       Replicas: 1,2   Isr: 1,2
+Topic:ITBA-NonVerified-Release  PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: ITBA-NonVerified-Release Partition: 0    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: ITBA-NonVerified-Release Partition: 1    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: ITBA-NonVerified-Release Partition: 2    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+Topic:ITBA-NonVerified-Release-ERROR-TOPIC      PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: ITBA-NonVerified-Release-ERROR-TOPIC     Partition: 0    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: ITBA-NonVerified-Release-ERROR-TOPIC     Partition: 1    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: ITBA-NonVerified-Release-ERROR-TOPIC     Partition: 2    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+Topic:ITBA_NonVerified_Release  PartitionCount:5        ReplicationFactor:3     Configs:
+        Topic: ITBA_NonVerified_Release Partition: 0    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: ITBA_NonVerified_Release Partition: 1    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: ITBA_NonVerified_Release Partition: 2    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: ITBA_NonVerified_Release Partition: 3    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: ITBA_NonVerified_Release Partition: 4    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+Topic:ITD-ERROR-QUEUE   PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: ITD-ERROR-QUEUE  Partition: 0    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: ITD-ERROR-QUEUE  Partition: 1    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: ITD-ERROR-QUEUE  Partition: 2    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+Topic:ITD_ERROR_QUEUE   PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: ITD_ERROR_QUEUE  Partition: 0    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: ITD_ERROR_QUEUE  Partition: 1    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: ITD_ERROR_QUEUE  Partition: 2    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+Topic:MANUAL-ORDER-MATCHING     PartitionCount:5        ReplicationFactor:3     Configs:
+        Topic: MANUAL-ORDER-MATCHING    Partition: 0    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: MANUAL-ORDER-MATCHING    Partition: 1    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: MANUAL-ORDER-MATCHING    Partition: 2    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: MANUAL-ORDER-MATCHING    Partition: 3    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: MANUAL-ORDER-MATCHING    Partition: 4    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+Topic:MATCHING  PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: MATCHING Partition: 0    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: MATCHING Partition: 1    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: MATCHING Partition: 2    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+Topic:MIS-COM-TT-EFL-PROCDNG-DETL       PartitionCount:2        ReplicationFactor:2     Configs:compression.type=producer,leader.replication.throttled.replicas=,min.insync.replicas=2,message.downconversion.enable=true,segment.jitter.ms=0,cleanup.policy=delete,flush.ms=9223372036854775807,follower.replication.throttled.replicas=,segment.bytes=1073741824,retention.ms=300000,flush.messages=9223372036854775807,message.format.version=2.3-IV1,max.compaction.lag.ms=9223372036854775807,file.delete.delay.ms=60000,max.message.bytes=1000012,min.compaction.lag.ms=0,message.timestamp.type=CreateTime,preallocate=false,index.interval.bytes=4096,min.cleanable.dirty.ratio=0.5,unclean.leader.election.enable=false,retention.bytes=5368709120,delete.retention.ms=86400000,segment.ms=604800000,message.timestamp.difference.max.ms=9223372036854775807,segment.index.bytes=10485760
+        Topic: MIS-COM-TT-EFL-PROCDNG-DETL      Partition: 0    Leader: 1       Replicas: 1,3   Isr: 3,1
+        Topic: MIS-COM-TT-EFL-PROCDNG-DETL      Partition: 1    Leader: 2       Replicas: 2,1   Isr: 1,2
+Topic:MIS-COMMUNICATION-MASTER  PartitionCount:2        ReplicationFactor:2     Configs:compression.type=producer,leader.replication.throttled.replicas=,min.insync.replicas=2,message.downconversion.enable=true,segment.jitter.ms=0,cleanup.policy=delete,flush.ms=9223372036854775807,follower.replication.throttled.replicas=,segment.bytes=1073741824,retention.ms=300000,flush.messages=9223372036854775807,message.format.version=2.3-IV1,max.compaction.lag.ms=9223372036854775807,file.delete.delay.ms=60000,max.message.bytes=1000012,min.compaction.lag.ms=0,message.timestamp.type=CreateTime,preallocate=false,index.interval.bytes=4096,min.cleanable.dirty.ratio=0.5,unclean.leader.election.enable=false,retention.bytes=5368709120,delete.retention.ms=86400000,segment.ms=604800000,message.timestamp.difference.max.ms=9223372036854775807,segment.index.bytes=10485760
+        Topic: MIS-COMMUNICATION-MASTER Partition: 0    Leader: 1       Replicas: 1,2   Isr: 1,2
+        Topic: MIS-COMMUNICATION-MASTER Partition: 1    Leader: 2       Replicas: 2,3   Isr: 3,2
+Topic:MIS-CPC-ITR-EFILE-CONTROL-MSTR    PartitionCount:2        ReplicationFactor:2     Configs:compression.type=producer,leader.replication.throttled.replicas=,min.insync.replicas=2,message.downconversion.enable=true,segment.jitter.ms=0,cleanup.policy=delete,flush.ms=9223372036854775807,follower.replication.throttled.replicas=,segment.bytes=1073741824,retention.ms=300000,flush.messages=9223372036854775807,message.format.version=2.3-IV1,max.compaction.lag.ms=9223372036854775807,file.delete.delay.ms=60000,max.message.bytes=1000012,min.compaction.lag.ms=0,message.timestamp.type=CreateTime,preallocate=false,index.interval.bytes=4096,min.cleanable.dirty.ratio=0.5,unclean.leader.election.enable=false,retention.bytes=5368709120,delete.retention.ms=86400000,segment.ms=604800000,message.timestamp.difference.max.ms=9223372036854775807,segment.index.bytes=10485760
+        Topic: MIS-CPC-ITR-EFILE-CONTROL-MSTR   Partition: 0    Leader: 3       Replicas: 3,1   Isr: 3,1
+        Topic: MIS-CPC-ITR-EFILE-CONTROL-MSTR   Partition: 1    Leader: 1       Replicas: 1,2   Isr: 1,2
+Topic:MIS-ITR-EVERIFY-DETL      PartitionCount:2        ReplicationFactor:2     Configs:compression.type=producer,leader.replication.throttled.replicas=,min.insync.replicas=2,message.downconversion.enable=true,segment.jitter.ms=0,cleanup.policy=delete,flush.ms=9223372036854775807,follower.replication.throttled.replicas=,segment.bytes=1073741824,retention.ms=300000,flush.messages=9223372036854775807,message.format.version=2.3-IV1,max.compaction.lag.ms=9223372036854775807,file.delete.delay.ms=60000,max.message.bytes=1000012,min.compaction.lag.ms=0,message.timestamp.type=CreateTime,preallocate=false,index.interval.bytes=4096,min.cleanable.dirty.ratio=0.5,unclean.leader.election.enable=false,retention.bytes=5368709120,delete.retention.ms=86400000,segment.ms=604800000,message.timestamp.difference.max.ms=9223372036854775807,segment.index.bytes=10485760
+        Topic: MIS-ITR-EVERIFY-DETL     Partition: 0    Leader: 3       Replicas: 3,1   Isr: 3,1
+        Topic: MIS-ITR-EVERIFY-DETL     Partition: 1    Leader: 1       Replicas: 1,2   Isr: 1,2
+Topic:MIS-ITR-HOLD      PartitionCount:2        ReplicationFactor:2     Configs:compression.type=producer,leader.replication.throttled.replicas=,min.insync.replicas=2,message.downconversion.enable=true,segment.jitter.ms=0,cleanup.policy=delete,flush.ms=9223372036854775807,follower.replication.throttled.replicas=,segment.bytes=1073741824,retention.ms=300000,flush.messages=9223372036854775807,message.format.version=2.3-IV1,max.compaction.lag.ms=9223372036854775807,file.delete.delay.ms=60000,max.message.bytes=1000012,min.compaction.lag.ms=0,message.timestamp.type=CreateTime,preallocate=false,index.interval.bytes=4096,min.cleanable.dirty.ratio=0.5,unclean.leader.election.enable=false,retention.bytes=5368709120,delete.retention.ms=86400000,segment.ms=604800000,message.timestamp.difference.max.ms=9223372036854775807,segment.index.bytes=10485760
+        Topic: MIS-ITR-HOLD     Partition: 0    Leader: 1       Replicas: 1,2   Isr: 1,2
+        Topic: MIS-ITR-HOLD     Partition: 1    Leader: 2       Replicas: 2,3   Isr: 3,2
+Topic:MIS-ITR-PROCESS-CONTROL-MSTR      PartitionCount:2        ReplicationFactor:2     Configs:compression.type=producer,leader.replication.throttled.replicas=,min.insync.replicas=2,message.downconversion.enable=true,segment.jitter.ms=0,cleanup.policy=delete,flush.ms=9223372036854775807,follower.replication.throttled.replicas=,segment.bytes=1073741824,retention.ms=300000,flush.messages=9223372036854775807,message.format.version=2.3-IV1,max.compaction.lag.ms=9223372036854775807,file.delete.delay.ms=60000,max.message.bytes=1000012,min.compaction.lag.ms=0,message.timestamp.type=CreateTime,preallocate=false,index.interval.bytes=4096,min.cleanable.dirty.ratio=0.5,unclean.leader.election.enable=false,retention.bytes=5368709120,delete.retention.ms=86400000,segment.ms=604800000,message.timestamp.difference.max.ms=9223372036854775807,segment.index.bytes=10485760
+        Topic: MIS-ITR-PROCESS-CONTROL-MSTR     Partition: 0    Leader: 1       Replicas: 1,2   Isr: 1,2
+        Topic: MIS-ITR-PROCESS-CONTROL-MSTR     Partition: 1    Leader: 2       Replicas: 2,3   Isr: 3,2
+Topic:MIS-ITR-PROCESS-ERROR-RECORD      PartitionCount:2        ReplicationFactor:2     Configs:compression.type=producer,leader.replication.throttled.replicas=,min.insync.replicas=2,message.downconversion.enable=true,segment.jitter.ms=0,cleanup.policy=delete,flush.ms=9223372036854775807,follower.replication.throttled.replicas=,segment.bytes=1073741824,retention.ms=300000,flush.messages=9223372036854775807,message.format.version=2.3-IV1,max.compaction.lag.ms=9223372036854775807,file.delete.delay.ms=60000,max.message.bytes=1000012,min.compaction.lag.ms=0,message.timestamp.type=CreateTime,preallocate=false,index.interval.bytes=4096,min.cleanable.dirty.ratio=0.5,unclean.leader.election.enable=false,retention.bytes=5368709120,delete.retention.ms=86400000,segment.ms=604800000,message.timestamp.difference.max.ms=9223372036854775807,segment.index.bytes=10485760
+        Topic: MIS-ITR-PROCESS-ERROR-RECORD     Partition: 0    Leader: 3       Replicas: 3,1   Isr: 3,1
+        Topic: MIS-ITR-PROCESS-ERROR-RECORD     Partition: 1    Leader: 1       Replicas: 1,2   Isr: 1,2
+Topic:MIS-ITR-PROCESS-STATUS-MSTR       PartitionCount:2        ReplicationFactor:2     Configs:compression.type=producer,leader.replication.throttled.replicas=,min.insync.replicas=2,message.downconversion.enable=true,segment.jitter.ms=0,cleanup.policy=delete,flush.ms=9223372036854775807,follower.replication.throttled.replicas=,segment.bytes=1073741824,retention.ms=300000,flush.messages=9223372036854775807,message.format.version=2.3-IV1,max.compaction.lag.ms=9223372036854775807,file.delete.delay.ms=60000,max.message.bytes=1000012,min.compaction.lag.ms=0,message.timestamp.type=CreateTime,preallocate=false,index.interval.bytes=4096,min.cleanable.dirty.ratio=0.5,unclean.leader.election.enable=false,retention.bytes=5368709120,delete.retention.ms=86400000,segment.ms=604800000,message.timestamp.difference.max.ms=9223372036854775807,segment.index.bytes=10485760
+        Topic: MIS-ITR-PROCESS-STATUS-MSTR      Partition: 0    Leader: 3       Replicas: 3,2   Isr: 3,2
+        Topic: MIS-ITR-PROCESS-STATUS-MSTR      Partition: 1    Leader: 1       Replicas: 1,3   Isr: 3,1
+Topic:MIS-ITR-REFUND-PROCESS    PartitionCount:2        ReplicationFactor:2     Configs:compression.type=producer,leader.replication.throttled.replicas=,min.insync.replicas=2,message.downconversion.enable=true,segment.jitter.ms=0,cleanup.policy=delete,flush.ms=9223372036854775807,follower.replication.throttled.replicas=,segment.bytes=1073741824,retention.ms=300000,flush.messages=9223372036854775807,message.format.version=2.3-IV1,max.compaction.lag.ms=9223372036854775807,file.delete.delay.ms=60000,max.message.bytes=1000012,min.compaction.lag.ms=0,message.timestamp.type=CreateTime,preallocate=false,index.interval.bytes=4096,min.cleanable.dirty.ratio=0.5,unclean.leader.election.enable=false,retention.bytes=5368709120,delete.retention.ms=86400000,segment.ms=604800000,message.timestamp.difference.max.ms=9223372036854775807,segment.index.bytes=10485760
+        Topic: MIS-ITR-REFUND-PROCESS   Partition: 0    Leader: 2       Replicas: 2,3   Isr: 3,2
+        Topic: MIS-ITR-REFUND-PROCESS   Partition: 1    Leader: 3       Replicas: 3,1   Isr: 3,1
+Topic:MIS-PROCDNG-RESPONSE-DETL PartitionCount:2        ReplicationFactor:2     Configs:compression.type=producer,leader.replication.throttled.replicas=,min.insync.replicas=2,message.downconversion.enable=true,segment.jitter.ms=0,cleanup.policy=delete,flush.ms=9223372036854775807,follower.replication.throttled.replicas=,segment.bytes=1073741824,retention.ms=300000,flush.messages=9223372036854775807,message.format.version=2.3-IV1,max.compaction.lag.ms=9223372036854775807,file.delete.delay.ms=60000,max.message.bytes=1000012,min.compaction.lag.ms=0,message.timestamp.type=CreateTime,preallocate=false,index.interval.bytes=4096,min.cleanable.dirty.ratio=0.5,unclean.leader.election.enable=false,retention.bytes=5368709120,delete.retention.ms=86400000,segment.ms=604800000,message.timestamp.difference.max.ms=9223372036854775807,segment.index.bytes=10485760
+        Topic: MIS-PROCDNG-RESPONSE-DETL        Partition: 0    Leader: 1       Replicas: 1,2   Isr: 1,2
+        Topic: MIS-PROCDNG-RESPONSE-DETL        Partition: 1    Leader: 2       Replicas: 2,3   Isr: 3,2
+Topic:MIS-PROCDNG-RESPONSE-SUB-DETL     PartitionCount:2        ReplicationFactor:2     Configs:compression.type=producer,leader.replication.throttled.replicas=,min.insync.replicas=2,message.downconversion.enable=true,segment.jitter.ms=0,cleanup.policy=delete,flush.ms=9223372036854775807,follower.replication.throttled.replicas=,segment.bytes=1073741824,retention.ms=300000,flush.messages=9223372036854775807,message.format.version=2.3-IV1,max.compaction.lag.ms=9223372036854775807,file.delete.delay.ms=60000,max.message.bytes=1000012,min.compaction.lag.ms=0,message.timestamp.type=CreateTime,preallocate=false,index.interval.bytes=4096,min.cleanable.dirty.ratio=0.5,unclean.leader.election.enable=false,retention.bytes=5368709120,delete.retention.ms=86400000,segment.ms=604800000,message.timestamp.difference.max.ms=9223372036854775807,segment.index.bytes=10485760
+        Topic: MIS-PROCDNG-RESPONSE-SUB-DETL    Partition: 0    Leader: 3       Replicas: 3,2   Isr: 3,2
+        Topic: MIS-PROCDNG-RESPONSE-SUB-DETL    Partition: 1    Leader: 1       Replicas: 1,3   Isr: 3,1
+Topic:MIS-RM-CARTON-DET PartitionCount:2        ReplicationFactor:2     Configs:compression.type=producer,leader.replication.throttled.replicas=,min.insync.replicas=2,message.downconversion.enable=true,segment.jitter.ms=0,cleanup.policy=delete,flush.ms=9223372036854775807,follower.replication.throttled.replicas=,segment.bytes=1073741824,retention.ms=300000,flush.messages=9223372036854775807,message.format.version=2.3-IV1,max.compaction.lag.ms=9223372036854775807,file.delete.delay.ms=60000,max.message.bytes=1000012,min.compaction.lag.ms=0,message.timestamp.type=CreateTime,preallocate=false,index.interval.bytes=4096,min.cleanable.dirty.ratio=0.5,unclean.leader.election.enable=false,retention.bytes=5368709120,delete.retention.ms=86400000,segment.ms=604800000,message.timestamp.difference.max.ms=9223372036854775807,segment.index.bytes=10485760
+        Topic: MIS-RM-CARTON-DET        Partition: 0    Leader: 3       Replicas: 3,2   Isr: 3,2
+        Topic: MIS-RM-CARTON-DET        Partition: 1    Leader: 1       Replicas: 1,3   Isr: 3,1
+Topic:MIS-RM-CARTON-MSTR        PartitionCount:2        ReplicationFactor:2     Configs:
+        Topic: MIS-RM-CARTON-MSTR       Partition: 0    Leader: 1       Replicas: 1,3   Isr: 3,1
+        Topic: MIS-RM-CARTON-MSTR       Partition: 1    Leader: 2       Replicas: 2,1   Isr: 1,2
+Topic:MIS-RM-GATEPASS-DET       PartitionCount:2        ReplicationFactor:2     Configs:compression.type=producer,leader.replication.throttled.replicas=,min.insync.replicas=2,message.downconversion.enable=true,segment.jitter.ms=0,cleanup.policy=delete,flush.ms=9223372036854775807,follower.replication.throttled.replicas=,segment.bytes=1073741824,retention.ms=300000,flush.messages=9223372036854775807,message.format.version=2.3-IV1,max.compaction.lag.ms=9223372036854775807,file.delete.delay.ms=60000,max.message.bytes=1000012,min.compaction.lag.ms=0,message.timestamp.type=CreateTime,preallocate=false,index.interval.bytes=4096,min.cleanable.dirty.ratio=0.5,unclean.leader.election.enable=false,retention.bytes=5368709120,delete.retention.ms=86400000,segment.ms=604800000,message.timestamp.difference.max.ms=9223372036854775807,segment.index.bytes=10485760
+        Topic: MIS-RM-GATEPASS-DET      Partition: 0    Leader: 2       Replicas: 2,3   Isr: 3,2
+        Topic: MIS-RM-GATEPASS-DET      Partition: 1    Leader: 3       Replicas: 3,1   Isr: 3,1
+Topic:MIS-RM-GATEPASS-MSTR      PartitionCount:2        ReplicationFactor:2     Configs:compression.type=producer,leader.replication.throttled.replicas=,min.insync.replicas=2,message.downconversion.enable=true,segment.jitter.ms=0,cleanup.policy=delete,flush.ms=9223372036854775807,follower.replication.throttled.replicas=,segment.bytes=1073741824,retention.ms=300000,flush.messages=9223372036854775807,message.format.version=2.3-IV1,max.compaction.lag.ms=9223372036854775807,file.delete.delay.ms=60000,max.message.bytes=1000012,min.compaction.lag.ms=0,message.timestamp.type=CreateTime,preallocate=false,index.interval.bytes=4096,min.cleanable.dirty.ratio=0.5,unclean.leader.election.enable=false,retention.bytes=5368709120,delete.retention.ms=86400000,segment.ms=604800000,message.timestamp.difference.max.ms=9223372036854775807,segment.index.bytes=10485760
+        Topic: MIS-RM-GATEPASS-MSTR     Partition: 0    Leader: 3       Replicas: 3,1   Isr: 3,1
+        Topic: MIS-RM-GATEPASS-MSTR     Partition: 1    Leader: 1       Replicas: 1,2   Isr: 1,2
+Topic:MIS-RM-ITRV-DET   PartitionCount:2        ReplicationFactor:2     Configs:
+        Topic: MIS-RM-ITRV-DET  Partition: 0    Leader: 3       Replicas: 3,1   Isr: 3,1
+        Topic: MIS-RM-ITRV-DET  Partition: 1    Leader: 1       Replicas: 1,2   Isr: 1,2
+Topic:MIS-RM-MAIL-DET   PartitionCount:2        ReplicationFactor:2     Configs:compression.type=producer,leader.replication.throttled.replicas=,min.insync.replicas=2,message.downconversion.enable=true,segment.jitter.ms=0,cleanup.policy=delete,flush.ms=9223372036854775807,follower.replication.throttled.replicas=,segment.bytes=1073741824,retention.ms=300000,flush.messages=9223372036854775807,message.format.version=2.3-IV1,max.compaction.lag.ms=9223372036854775807,file.delete.delay.ms=60000,max.message.bytes=1000012,min.compaction.lag.ms=0,message.timestamp.type=CreateTime,preallocate=false,index.interval.bytes=4096,min.cleanable.dirty.ratio=0.5,unclean.leader.election.enable=false,retention.bytes=5368709120,delete.retention.ms=86400000,segment.ms=604800000,message.timestamp.difference.max.ms=9223372036854775807,segment.index.bytes=10485760
+        Topic: MIS-RM-MAIL-DET  Partition: 0    Leader: 1       Replicas: 1,2   Isr: 1,2
+        Topic: MIS-RM-MAIL-DET  Partition: 1    Leader: 2       Replicas: 2,3   Isr: 3,2
+Topic:MIS-RM-REJECTION-DET      PartitionCount:2        ReplicationFactor:2     Configs:compression.type=producer,leader.replication.throttled.replicas=,min.insync.replicas=2,message.downconversion.enable=true,segment.jitter.ms=0,cleanup.policy=delete,flush.ms=9223372036854775807,follower.replication.throttled.replicas=,segment.bytes=1073741824,retention.ms=300000,flush.messages=9223372036854775807,message.format.version=2.3-IV1,max.compaction.lag.ms=9223372036854775807,file.delete.delay.ms=60000,max.message.bytes=1000012,min.compaction.lag.ms=0,message.timestamp.type=CreateTime,preallocate=false,index.interval.bytes=4096,min.cleanable.dirty.ratio=0.5,unclean.leader.election.enable=false,retention.bytes=5368709120,delete.retention.ms=86400000,segment.ms=604800000,message.timestamp.difference.max.ms=9223372036854775807,segment.index.bytes=10485760
+        Topic: MIS-RM-REJECTION-DET     Partition: 0    Leader: 2       Replicas: 2,1   Isr: 1,2
+        Topic: MIS-RM-REJECTION-DET     Partition: 1    Leader: 3       Replicas: 3,2   Isr: 3,2
+Topic:MIS-USER-PROFILE  PartitionCount:2        ReplicationFactor:2     Configs:compression.type=producer,leader.replication.throttled.replicas=,min.insync.replicas=2,message.downconversion.enable=true,segment.jitter.ms=0,cleanup.policy=delete,flush.ms=9223372036854775807,follower.replication.throttled.replicas=,segment.bytes=1073741824,retention.ms=300000,flush.messages=9223372036854775807,message.format.version=2.3-IV1,max.compaction.lag.ms=9223372036854775807,file.delete.delay.ms=60000,max.message.bytes=1000012,min.compaction.lag.ms=0,message.timestamp.type=CreateTime,preallocate=false,index.interval.bytes=4096,min.cleanable.dirty.ratio=0.5,unclean.leader.election.enable=false,retention.bytes=5368709120,delete.retention.ms=86400000,segment.ms=604800000,message.timestamp.difference.max.ms=9223372036854775807,segment.index.bytes=10485760
+        Topic: MIS-USER-PROFILE Partition: 0    Leader: 1       Replicas: 1,2   Isr: 1,2
+        Topic: MIS-USER-PROFILE Partition: 1    Leader: 2       Replicas: 2,3   Isr: 3,2
+Topic:MIS-XXITD-DEMAND-HEADERS  PartitionCount:2        ReplicationFactor:2     Configs:compression.type=producer,leader.replication.throttled.replicas=,min.insync.replicas=2,message.downconversion.enable=true,segment.jitter.ms=0,cleanup.policy=delete,flush.ms=9223372036854775807,follower.replication.throttled.replicas=,segment.bytes=1073741824,retention.ms=300000,flush.messages=9223372036854775807,message.format.version=2.3-IV1,max.compaction.lag.ms=9223372036854775807,file.delete.delay.ms=60000,max.message.bytes=1000012,min.compaction.lag.ms=0,message.timestamp.type=CreateTime,preallocate=false,index.interval.bytes=4096,min.cleanable.dirty.ratio=0.5,unclean.leader.election.enable=false,retention.bytes=5368709120,delete.retention.ms=86400000,segment.ms=604800000,message.timestamp.difference.max.ms=9223372036854775807,segment.index.bytes=10485760
+        Topic: MIS-XXITD-DEMAND-HEADERS Partition: 0    Leader: 2       Replicas: 2,3   Isr: 3,2
+        Topic: MIS-XXITD-DEMAND-HEADERS Partition: 1    Leader: 3       Replicas: 3,1   Isr: 3,1
+Topic:MIS-XXITD-REFUND-HEADERS  PartitionCount:2        ReplicationFactor:2     Configs:compression.type=producer,leader.replication.throttled.replicas=,min.insync.replicas=2,message.downconversion.enable=true,segment.jitter.ms=0,cleanup.policy=delete,flush.ms=9223372036854775807,follower.replication.throttled.replicas=,segment.bytes=1073741824,retention.ms=300000,flush.messages=9223372036854775807,message.format.version=2.3-IV1,max.compaction.lag.ms=9223372036854775807,file.delete.delay.ms=60000,max.message.bytes=1000012,min.compaction.lag.ms=0,message.timestamp.type=CreateTime,preallocate=false,index.interval.bytes=4096,min.cleanable.dirty.ratio=0.5,unclean.leader.election.enable=false,retention.bytes=5368709120,delete.retention.ms=86400000,segment.ms=604800000,message.timestamp.difference.max.ms=9223372036854775807,segment.index.bytes=10485760
+        Topic: MIS-XXITD-REFUND-HEADERS Partition: 0    Leader: 2       Replicas: 2,1   Isr: 1,2
+        Topic: MIS-XXITD-REFUND-HEADERS Partition: 1    Leader: 3       Replicas: 3,2   Isr: 3,2
+Topic:OLTAS-CHALLAN-ALL-UPDATE-FLAGS-SOURCE     PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: OLTAS-CHALLAN-ALL-UPDATE-FLAGS-SOURCE    Partition: 0    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-ALL-UPDATE-FLAGS-SOURCE    Partition: 1    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-ALL-UPDATE-FLAGS-SOURCE    Partition: 2    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+Topic:OLTAS-CHALLAN-FINAL-INSERT        PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: OLTAS-CHALLAN-FINAL-INSERT       Partition: 0    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-FINAL-INSERT       Partition: 1    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-FINAL-INSERT       Partition: 2    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+Topic:OLTAS-CHALLAN-FINAL-INSERT-NEW    PartitionCount:5        ReplicationFactor:3     Configs:
+        Topic: OLTAS-CHALLAN-FINAL-INSERT-NEW   Partition: 0    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-FINAL-INSERT-NEW   Partition: 1    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-FINAL-INSERT-NEW   Partition: 2    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-FINAL-INSERT-NEW   Partition: 3    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-FINAL-INSERT-NEW   Partition: 4    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+Topic:OLTAS-CHALLAN-FLAGS-UPDATE        PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: OLTAS-CHALLAN-FLAGS-UPDATE       Partition: 0    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-FLAGS-UPDATE       Partition: 1    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-FLAGS-UPDATE       Partition: 2    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+Topic:OLTAS-CHALLAN-INSERT-FINAL        PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: OLTAS-CHALLAN-INSERT-FINAL       Partition: 0    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-INSERT-FINAL       Partition: 1    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-INSERT-FINAL       Partition: 2    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+Topic:OLTAS-CHALLAN-INSERT-TOPIC        PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: OLTAS-CHALLAN-INSERT-TOPIC       Partition: 0    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-INSERT-TOPIC       Partition: 1    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-INSERT-TOPIC       Partition: 2    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+Topic:OLTAS-CHALLAN-ORIG-SECOND-FLOW    PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: OLTAS-CHALLAN-ORIG-SECOND-FLOW   Partition: 0    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-ORIG-SECOND-FLOW   Partition: 1    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-ORIG-SECOND-FLOW   Partition: 2    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+Topic:OLTAS-CHALLAN-UPDATE      PartitionCount:5        ReplicationFactor:3     Configs:cleanup.policy=delete,max.message.bytes=1000012,min.insync.replicas=2,retention.ms=604800000,delete.retention.ms=86400000,retention.bytes=10737418240
+        Topic: OLTAS-CHALLAN-UPDATE     Partition: 0    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE     Partition: 1    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE     Partition: 2    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE     Partition: 3    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE     Partition: 4    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+Topic:OLTAS-CHALLAN-UPDATE-FLAGS        PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: OLTAS-CHALLAN-UPDATE-FLAGS       Partition: 0    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-FLAGS       Partition: 1    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-FLAGS       Partition: 2    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+Topic:OLTAS-CHALLAN-UPDATE-FLAGS-NEW    PartitionCount:5        ReplicationFactor:3     Configs:
+        Topic: OLTAS-CHALLAN-UPDATE-FLAGS-NEW   Partition: 0    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-FLAGS-NEW   Partition: 1    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-FLAGS-NEW   Partition: 2    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-FLAGS-NEW   Partition: 3    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-FLAGS-NEW   Partition: 4    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+Topic:OLTAS-CHALLAN-UPDATE-FLAGS-NEWFOUR        PartitionCount:5        ReplicationFactor:3     Configs:
+        Topic: OLTAS-CHALLAN-UPDATE-FLAGS-NEWFOUR       Partition: 0    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-FLAGS-NEWFOUR       Partition: 1    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-FLAGS-NEWFOUR       Partition: 2    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-FLAGS-NEWFOUR       Partition: 3    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-FLAGS-NEWFOUR       Partition: 4    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+Topic:OLTAS-CHALLAN-UPDATE-FLAGS-NEWONE PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: OLTAS-CHALLAN-UPDATE-FLAGS-NEWONE        Partition: 0    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-FLAGS-NEWONE        Partition: 1    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-FLAGS-NEWONE        Partition: 2    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+Topic:OLTAS-CHALLAN-UPDATE-FLAGS-NEWTHREE       PartitionCount:5        ReplicationFactor:3     Configs:
+        Topic: OLTAS-CHALLAN-UPDATE-FLAGS-NEWTHREE      Partition: 0    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-FLAGS-NEWTHREE      Partition: 1    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-FLAGS-NEWTHREE      Partition: 2    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-FLAGS-NEWTHREE      Partition: 3    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-FLAGS-NEWTHREE      Partition: 4    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+Topic:OLTAS-CHALLAN-UPDATE-LATEST-TOPIC PartitionCount:5        ReplicationFactor:3     Configs:
+        Topic: OLTAS-CHALLAN-UPDATE-LATEST-TOPIC        Partition: 0    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-LATEST-TOPIC        Partition: 1    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-LATEST-TOPIC        Partition: 2    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-LATEST-TOPIC        Partition: 3    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-LATEST-TOPIC        Partition: 4    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+Topic:OLTAS-CHALLAN-UPDATE-LATEST-TOPIC-ONE     PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: OLTAS-CHALLAN-UPDATE-LATEST-TOPIC-ONE    Partition: 0    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-LATEST-TOPIC-ONE    Partition: 1    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-LATEST-TOPIC-ONE    Partition: 2    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+Topic:OLTAS-CHALLAN-UPDATE-LATEST-TOPIC-THREE   PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: OLTAS-CHALLAN-UPDATE-LATEST-TOPIC-THREE  Partition: 0    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-LATEST-TOPIC-THREE  Partition: 1    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-LATEST-TOPIC-THREE  Partition: 2    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+Topic:OLTAS-CHALLAN-UPDATE-LATEST-TOPIC-THREE-OLTAS_CHALLAN_ALL PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: OLTAS-CHALLAN-UPDATE-LATEST-TOPIC-THREE-OLTAS_CHALLAN_ALL        Partition: 0    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-LATEST-TOPIC-THREE-OLTAS_CHALLAN_ALL        Partition: 1    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-LATEST-TOPIC-THREE-OLTAS_CHALLAN_ALL        Partition: 2    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+Topic:OLTAS-CHALLAN-UPDATE-NEW-TOPIC    PartitionCount:5        ReplicationFactor:3     Configs:
+        Topic: OLTAS-CHALLAN-UPDATE-NEW-TOPIC   Partition: 0    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-NEW-TOPIC   Partition: 1    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-NEW-TOPIC   Partition: 2    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-NEW-TOPIC   Partition: 3    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-NEW-TOPIC   Partition: 4    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+Topic:OLTAS-CHALLAN-UPDATE-RECEIPT-TOPIC        PartitionCount:5        ReplicationFactor:3     Configs:
+        Topic: OLTAS-CHALLAN-UPDATE-RECEIPT-TOPIC       Partition: 0    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-RECEIPT-TOPIC       Partition: 1    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-RECEIPT-TOPIC       Partition: 2    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-RECEIPT-TOPIC       Partition: 3    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-RECEIPT-TOPIC       Partition: 4    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+Topic:OLTAS-CHALLAN-UPDATE-RECEIPT-TOPIC-ONE    PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: OLTAS-CHALLAN-UPDATE-RECEIPT-TOPIC-ONE   Partition: 0    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-RECEIPT-TOPIC-ONE   Partition: 1    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-RECEIPT-TOPIC-ONE   Partition: 2    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+Topic:OLTAS-CHALLAN-UPDATE-RECEIPT-TOPIC-THREE  PartitionCount:5        ReplicationFactor:3     Configs:
+        Topic: OLTAS-CHALLAN-UPDATE-RECEIPT-TOPIC-THREE Partition: 0    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-RECEIPT-TOPIC-THREE Partition: 1    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-RECEIPT-TOPIC-THREE Partition: 2    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-RECEIPT-TOPIC-THREE Partition: 3    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-RECEIPT-TOPIC-THREE Partition: 4    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+Topic:OLTAS-CHALLAN-UPDATE-RECEIPT-TOPIC-THREE-TEST     PartitionCount:5        ReplicationFactor:3     Configs:
+        Topic: OLTAS-CHALLAN-UPDATE-RECEIPT-TOPIC-THREE-TEST    Partition: 0    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-RECEIPT-TOPIC-THREE-TEST    Partition: 1    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-RECEIPT-TOPIC-THREE-TEST    Partition: 2    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-RECEIPT-TOPIC-THREE-TEST    Partition: 3    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-RECEIPT-TOPIC-THREE-TEST    Partition: 4    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+Topic:OLTAS-CHALLAN-UPDATE-RECEIPT-TOPIC-TWO    PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: OLTAS-CHALLAN-UPDATE-RECEIPT-TOPIC-TWO   Partition: 0    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-RECEIPT-TOPIC-TWO   Partition: 1    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-RECEIPT-TOPIC-TWO   Partition: 2    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+Topic:OLTAS-CHALLAN-UPDATE-TABLE        PartitionCount:5        ReplicationFactor:3     Configs:
+        Topic: OLTAS-CHALLAN-UPDATE-TABLE       Partition: 0    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-TABLE       Partition: 1    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-TABLE       Partition: 2    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-TABLE       Partition: 3    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-TABLE       Partition: 4    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+Topic:OLTAS-CHALLAN-UPDATE-TABLE-LATES  PartitionCount:5        ReplicationFactor:3     Configs:
+        Topic: OLTAS-CHALLAN-UPDATE-TABLE-LATES Partition: 0    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-TABLE-LATES Partition: 1    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-TABLE-LATES Partition: 2    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-TABLE-LATES Partition: 3    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-TABLE-LATES Partition: 4    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+Topic:OLTAS-CHALLAN-UPDATE-TABLE-LATEST PartitionCount:5        ReplicationFactor:3     Configs:
+        Topic: OLTAS-CHALLAN-UPDATE-TABLE-LATEST        Partition: 0    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-TABLE-LATEST        Partition: 1    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-TABLE-LATEST        Partition: 2    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-TABLE-LATEST        Partition: 3    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATE-TABLE-LATEST        Partition: 4    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+Topic:OLTAS-CHALLAN-UPDATED-FIELDS      PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: OLTAS-CHALLAN-UPDATED-FIELDS     Partition: 0    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATED-FIELDS     Partition: 1    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATED-FIELDS     Partition: 2    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+Topic:OLTAS-CHALLAN-UPDATED-FLAGS-NEWFOUR       PartitionCount:5        ReplicationFactor:3     Configs:
+        Topic: OLTAS-CHALLAN-UPDATED-FLAGS-NEWFOUR      Partition: 0    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATED-FLAGS-NEWFOUR      Partition: 1    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATED-FLAGS-NEWFOUR      Partition: 2    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATED-FLAGS-NEWFOUR      Partition: 3    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATED-FLAGS-NEWFOUR      Partition: 4    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+Topic:OLTAS-CHALLAN-UPDATED-FLAGS-NEWONE        PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: OLTAS-CHALLAN-UPDATED-FLAGS-NEWONE       Partition: 0    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATED-FLAGS-NEWONE       Partition: 1    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATED-FLAGS-NEWONE       Partition: 2    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+Topic:OLTAS-CHALLAN-UPDATED-FLAGS-NEWTHREE      PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: OLTAS-CHALLAN-UPDATED-FLAGS-NEWTHREE     Partition: 0    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATED-FLAGS-NEWTHREE     Partition: 1    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATED-FLAGS-NEWTHREE     Partition: 2    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+Topic:OLTAS-CHALLAN-UPDATED-FLAGS-NEWTWO        PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: OLTAS-CHALLAN-UPDATED-FLAGS-NEWTWO       Partition: 0    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATED-FLAGS-NEWTWO       Partition: 1    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: OLTAS-CHALLAN-UPDATED-FLAGS-NEWTWO       Partition: 2    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+Topic:OLTAS-ERROR-CORR-FLAG-UPDATE      PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: OLTAS-ERROR-CORR-FLAG-UPDATE     Partition: 0    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: OLTAS-ERROR-CORR-FLAG-UPDATE     Partition: 1    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: OLTAS-ERROR-CORR-FLAG-UPDATE     Partition: 2    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+Topic:OLTAS-ERROR-CORRECTION-FIRST-FLOW-SINK    PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: OLTAS-ERROR-CORRECTION-FIRST-FLOW-SINK   Partition: 0    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: OLTAS-ERROR-CORRECTION-FIRST-FLOW-SINK   Partition: 1    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: OLTAS-ERROR-CORRECTION-FIRST-FLOW-SINK   Partition: 2    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+Topic:OLTAS-ERROR-ORIG-FIRST-FLOW-SINK  PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: OLTAS-ERROR-ORIG-FIRST-FLOW-SINK Partition: 0    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: OLTAS-ERROR-ORIG-FIRST-FLOW-SINK Partition: 1    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: OLTAS-ERROR-ORIG-FIRST-FLOW-SINK Partition: 2    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+Topic:OLTAS-ERROR-ORIG-SECOND-FLOW-SINK PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: OLTAS-ERROR-ORIG-SECOND-FLOW-SINK        Partition: 0    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: OLTAS-ERROR-ORIG-SECOND-FLOW-SINK        Partition: 1    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: OLTAS-ERROR-ORIG-SECOND-FLOW-SINK        Partition: 2    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+Topic:OLTAS-ERROR-ORIG-SECOND-FLOW-SOURCE       PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: OLTAS-ERROR-ORIG-SECOND-FLOW-SOURCE      Partition: 0    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: OLTAS-ERROR-ORIG-SECOND-FLOW-SOURCE      Partition: 1    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: OLTAS-ERROR-ORIG-SECOND-FLOW-SOURCE      Partition: 2    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+Topic:OLTAS-ERROR-TOPIC PartitionCount:1        ReplicationFactor:1     Configs:
+        Topic: OLTAS-ERROR-TOPIC        Partition: 0    Leader: 2       Replicas: 2     Isr: 2
+Topic:OLTAS-ERROR-TOPIC-CORRECTION-INSERT       PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: OLTAS-ERROR-TOPIC-CORRECTION-INSERT      Partition: 0    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: OLTAS-ERROR-TOPIC-CORRECTION-INSERT      Partition: 1    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: OLTAS-ERROR-TOPIC-CORRECTION-INSERT      Partition: 2    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+Topic:OLTAS-ERROR-TOPIC-LAT     PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: OLTAS-ERROR-TOPIC-LAT    Partition: 0    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: OLTAS-ERROR-TOPIC-LAT    Partition: 1    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: OLTAS-ERROR-TOPIC-LAT    Partition: 2    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+Topic:OLTAS-ERROR-TOPIC-MARK-CANDIDATE  PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: OLTAS-ERROR-TOPIC-MARK-CANDIDATE Partition: 0    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: OLTAS-ERROR-TOPIC-MARK-CANDIDATE Partition: 1    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: OLTAS-ERROR-TOPIC-MARK-CANDIDATE Partition: 2    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+Topic:OLTAS-MARK-CANDIDATE-TOPIC        PartitionCount:5        ReplicationFactor:3     Configs:
+        Topic: OLTAS-MARK-CANDIDATE-TOPIC       Partition: 0    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: OLTAS-MARK-CANDIDATE-TOPIC       Partition: 1    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: OLTAS-MARK-CANDIDATE-TOPIC       Partition: 2    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: OLTAS-MARK-CANDIDATE-TOPIC       Partition: 3    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: OLTAS-MARK-CANDIDATE-TOPIC       Partition: 4    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+Topic:OLTAS-MARK-CANDIDATE-TOPIC-TEST   PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: OLTAS-MARK-CANDIDATE-TOPIC-TEST  Partition: 0    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: OLTAS-MARK-CANDIDATE-TOPIC-TEST  Partition: 1    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: OLTAS-MARK-CANDIDATE-TOPIC-TEST  Partition: 2    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+Topic:OLTAS-SUMMARY-INSERT-FIELDS       PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: OLTAS-SUMMARY-INSERT-FIELDS      Partition: 0    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: OLTAS-SUMMARY-INSERT-FIELDS      Partition: 1    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: OLTAS-SUMMARY-INSERT-FIELDS      Partition: 2    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+Topic:OLTAS-TOPIC-CHALLAN_DETAILS_STG   PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: OLTAS-TOPIC-CHALLAN_DETAILS_STG  Partition: 0    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: OLTAS-TOPIC-CHALLAN_DETAILS_STG  Partition: 1    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: OLTAS-TOPIC-CHALLAN_DETAILS_STG  Partition: 2    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+Topic:OLTAS-UPDATE-SOURCE-FLAGS-ITBA    PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: OLTAS-UPDATE-SOURCE-FLAGS-ITBA   Partition: 0    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: OLTAS-UPDATE-SOURCE-FLAGS-ITBA   Partition: 1    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: OLTAS-UPDATE-SOURCE-FLAGS-ITBA   Partition: 2    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+Topic:RECEIPT-STORE-TDS_26AS_OUTBND_STG PartitionCount:6        ReplicationFactor:3     Configs:
+        Topic: RECEIPT-STORE-TDS_26AS_OUTBND_STG        Partition: 0    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: RECEIPT-STORE-TDS_26AS_OUTBND_STG        Partition: 1    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: RECEIPT-STORE-TDS_26AS_OUTBND_STG        Partition: 2    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: RECEIPT-STORE-TDS_26AS_OUTBND_STG        Partition: 3    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: RECEIPT-STORE-TDS_26AS_OUTBND_STG        Partition: 4    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: RECEIPT-STORE-TDS_26AS_OUTBND_STG        Partition: 5    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+Topic:RECEIPT-VALIDATION-SINK   PartitionCount:6        ReplicationFactor:3     Configs:
+        Topic: RECEIPT-VALIDATION-SINK  Partition: 0    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: RECEIPT-VALIDATION-SINK  Partition: 1    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: RECEIPT-VALIDATION-SINK  Partition: 2    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: RECEIPT-VALIDATION-SINK  Partition: 3    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: RECEIPT-VALIDATION-SINK  Partition: 4    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: RECEIPT-VALIDATION-SINK  Partition: 5    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+Topic:RM-INWARD-FINAL   PartitionCount:5        ReplicationFactor:3     Configs:
+        Topic: RM-INWARD-FINAL  Partition: 0    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: RM-INWARD-FINAL  Partition: 1    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: RM-INWARD-FINAL  Partition: 2    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: RM-INWARD-FINAL  Partition: 3    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: RM-INWARD-FINAL  Partition: 4    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+Topic:RM-INWARD-INIT    PartitionCount:5        ReplicationFactor:3     Configs:
+        Topic: RM-INWARD-INIT   Partition: 0    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: RM-INWARD-INIT   Partition: 1    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: RM-INWARD-INIT   Partition: 2    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: RM-INWARD-INIT   Partition: 3    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: RM-INWARD-INIT   Partition: 4    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+Topic:RM-INWARD-INT     PartitionCount:5        ReplicationFactor:3     Configs:
+        Topic: RM-INWARD-INT    Partition: 0    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: RM-INWARD-INT    Partition: 1    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: RM-INWARD-INT    Partition: 2    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: RM-INWARD-INT    Partition: 3    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: RM-INWARD-INT    Partition: 4    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+Topic:RM-LEGAL-HEIR-REFUND-ISSUE        PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: RM-LEGAL-HEIR-REFUND-ISSUE       Partition: 0    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: RM-LEGAL-HEIR-REFUND-ISSUE       Partition: 1    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: RM-LEGAL-HEIR-REFUND-ISSUE       Partition: 2    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+Topic:RM-REFUND-ISSUE   PartitionCount:5        ReplicationFactor:3     Configs:
+        Topic: RM-REFUND-ISSUE  Partition: 0    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: RM-REFUND-ISSUE  Partition: 1    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: RM-REFUND-ISSUE  Partition: 2    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: RM-REFUND-ISSUE  Partition: 3    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: RM-REFUND-ISSUE  Partition: 4    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+Topic:RM-REFUND-REISSUE PartitionCount:5        ReplicationFactor:3     Configs:
+        Topic: RM-REFUND-REISSUE        Partition: 0    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: RM-REFUND-REISSUE        Partition: 1    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: RM-REFUND-REISSUE        Partition: 2    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: RM-REFUND-REISSUE        Partition: 3    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: RM-REFUND-REISSUE        Partition: 4    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+Topic:RM-RO-CHECK       PartitionCount:5        ReplicationFactor:3     Configs:
+        Topic: RM-RO-CHECK      Partition: 0    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: RM-RO-CHECK      Partition: 1    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: RM-RO-CHECK      Partition: 2    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: RM-RO-CHECK      Partition: 3    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: RM-RO-CHECK      Partition: 4    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+Topic:RM-RO-REISSUE     PartitionCount:5        ReplicationFactor:3     Configs:
+        Topic: RM-RO-REISSUE    Partition: 0    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: RM-RO-REISSUE    Partition: 1    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: RM-RO-REISSUE    Partition: 2    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: RM-RO-REISSUE    Partition: 3    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: RM-RO-REISSUE    Partition: 4    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+Topic:RM-SERVICE-STATUS PartitionCount:5        ReplicationFactor:3     Configs:
+        Topic: RM-SERVICE-STATUS        Partition: 0    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: RM-SERVICE-STATUS        Partition: 1    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: RM-SERVICE-STATUS        Partition: 2    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: RM-SERVICE-STATUS        Partition: 3    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: RM-SERVICE-STATUS        Partition: 4    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+Topic:SUMMARISATION-TOPIC       PartitionCount:6        ReplicationFactor:3     Configs:
+        Topic: SUMMARISATION-TOPIC      Partition: 0    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: SUMMARISATION-TOPIC      Partition: 1    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: SUMMARISATION-TOPIC      Partition: 2    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: SUMMARISATION-TOPIC      Partition: 3    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: SUMMARISATION-TOPIC      Partition: 4    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: SUMMARISATION-TOPIC      Partition: 5    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+Topic:TARGET-TOPIC-INSERT-FIELDS        PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: TARGET-TOPIC-INSERT-FIELDS       Partition: 0    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: TARGET-TOPIC-INSERT-FIELDS       Partition: 1    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: TARGET-TOPIC-INSERT-FIELDS       Partition: 2    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+Topic:TAXCALCULATION    PartitionCount:1        ReplicationFactor:2     Configs:
+        Topic: TAXCALCULATION   Partition: 0    Leader: 1       Replicas: 1,2   Isr: 1,2
+Topic:TDS-ERROR-TOPIC   PartitionCount:6        ReplicationFactor:3     Configs:
+        Topic: TDS-ERROR-TOPIC  Partition: 0    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: TDS-ERROR-TOPIC  Partition: 1    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: TDS-ERROR-TOPIC  Partition: 2    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: TDS-ERROR-TOPIC  Partition: 3    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: TDS-ERROR-TOPIC  Partition: 4    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: TDS-ERROR-TOPIC  Partition: 5    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+Topic:TDS-RECTIFICATION PartitionCount:6        ReplicationFactor:3     Configs:
+        Topic: TDS-RECTIFICATION        Partition: 0    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: TDS-RECTIFICATION        Partition: 1    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: TDS-RECTIFICATION        Partition: 2    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: TDS-RECTIFICATION        Partition: 3    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: TDS-RECTIFICATION        Partition: 4    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: TDS-RECTIFICATION        Partition: 5    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+Topic:TDS-RECTIFICATION-ERROR   PartitionCount:6        ReplicationFactor:3     Configs:
+        Topic: TDS-RECTIFICATION-ERROR  Partition: 0    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: TDS-RECTIFICATION-ERROR  Partition: 1    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: TDS-RECTIFICATION-ERROR  Partition: 2    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: TDS-RECTIFICATION-ERROR  Partition: 3    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: TDS-RECTIFICATION-ERROR  Partition: 4    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: TDS-RECTIFICATION-ERROR  Partition: 5    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+Topic:TDS-SUMMARISATION-ERROR-TOPIC     PartitionCount:6        ReplicationFactor:3     Configs:
+        Topic: TDS-SUMMARISATION-ERROR-TOPIC    Partition: 0    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: TDS-SUMMARISATION-ERROR-TOPIC    Partition: 1    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: TDS-SUMMARISATION-ERROR-TOPIC    Partition: 2    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: TDS-SUMMARISATION-ERROR-TOPIC    Partition: 3    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: TDS-SUMMARISATION-ERROR-TOPIC    Partition: 4    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: TDS-SUMMARISATION-ERROR-TOPIC    Partition: 5    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+Topic:TOPIC-OLTAS-CHALLAN-UPDATE-TB     PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: TOPIC-OLTAS-CHALLAN-UPDATE-TB    Partition: 0    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: TOPIC-OLTAS-CHALLAN-UPDATE-TB    Partition: 1    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: TOPIC-OLTAS-CHALLAN-UPDATE-TB    Partition: 2    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+Topic:Topic-OnDemand-Migration  PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: Topic-OnDemand-Migration Partition: 0    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: Topic-OnDemand-Migration Partition: 1    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: Topic-OnDemand-Migration Partition: 2    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+Topic:Topic-OnDemand-Migration-Error    PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: Topic-OnDemand-Migration-Error   Partition: 0    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: Topic-OnDemand-Migration-Error   Partition: 1    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: Topic-OnDemand-Migration-Error   Partition: 2    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+Topic:VALIDATION        PartitionCount:1        ReplicationFactor:2     Configs:
+        Topic: VALIDATION       Partition: 0    Leader: 2       Replicas: 2,3   Isr: 3,2
+Topic:VERIFIED-ERROR-TOPIC      PartitionCount:6        ReplicationFactor:3     Configs:
+        Topic: VERIFIED-ERROR-TOPIC     Partition: 0    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: VERIFIED-ERROR-TOPIC     Partition: 1    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: VERIFIED-ERROR-TOPIC     Partition: 2    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: VERIFIED-ERROR-TOPIC     Partition: 3    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: VERIFIED-ERROR-TOPIC     Partition: 4    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: VERIFIED-ERROR-TOPIC     Partition: 5    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+Topic:VERIFIED-RELEASE  PartitionCount:6        ReplicationFactor:3     Configs:
+        Topic: VERIFIED-RELEASE Partition: 0    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: VERIFIED-RELEASE Partition: 1    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: VERIFIED-RELEASE Partition: 2    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: VERIFIED-RELEASE Partition: 3    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: VERIFIED-RELEASE Partition: 4    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: VERIFIED-RELEASE Partition: 5    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+Topic:__confluent.support.metrics       PartitionCount:1        ReplicationFactor:1     Configs:retention.ms=31536000000
+        Topic: __confluent.support.metrics      Partition: 0    Leader: 3       Replicas: 3     Isr: 3
+Topic:__consumer_offsets        PartitionCount:50       ReplicationFactor:3     Configs:compression.type=producer,cleanup.policy=compact,segment.bytes=104857600
+        Topic: __consumer_offsets       Partition: 0    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 1    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 2    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 3    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 4    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 5    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 6    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 7    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 8    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 9    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 10   Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 11   Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 12   Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 13   Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 14   Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 15   Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 16   Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 17   Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 18   Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 19   Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 20   Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 21   Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 22   Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 23   Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 24   Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 25   Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 26   Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 27   Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 28   Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 29   Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 30   Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 31   Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 32   Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 33   Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 34   Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 35   Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 36   Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 37   Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 38   Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 39   Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 40   Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 41   Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 42   Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 43   Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 44   Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 45   Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 46   Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 47   Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 48   Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: __consumer_offsets       Partition: 49   Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+Topic:_confluent-command        PartitionCount:1        ReplicationFactor:3     Configs:cleanup.policy=compact,message.timestamp.type=CreateTime,min.insync.replicas=2,segment.bytes=134217728,message.timestamp.difference.max.ms=9223372036854775807,delete.retention.ms=259200000
+        Topic: _confluent-command       Partition: 0    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+Topic:_confluent-controlcenter-5-3-1-1-AlertHistoryStore-changelog      PartitionCount:4        ReplicationFactor:3     Configs:cleanup.policy=compact,message.timestamp.type=CreateTime,min.insync.replicas=2,retention.ms=691200000,segment.bytes=134217728,message.timestamp.difference.max.ms=9223372036854775807,retention.bytes=-1,delete.retention.ms=691200000
+        Topic: _confluent-controlcenter-5-3-1-1-AlertHistoryStore-changelog     Partition: 0    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-AlertHistoryStore-changelog     Partition: 1    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-AlertHistoryStore-changelog     Partition: 2    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-AlertHistoryStore-changelog     Partition: 3    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+Topic:_confluent-controlcenter-5-3-1-1-Group-ONE_MINUTE-changelog       PartitionCount:4        ReplicationFactor:3     Configs:cleanup.policy=compact,delete,message.timestamp.type=CreateTime,min.insync.replicas=2,retention.ms=432000000,segment.bytes=134217728,message.timestamp.difference.max.ms=9223372036854775807,retention.bytes=-1,delete.retention.ms=432000000
+        Topic: _confluent-controlcenter-5-3-1-1-Group-ONE_MINUTE-changelog      Partition: 0    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-Group-ONE_MINUTE-changelog      Partition: 1    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-Group-ONE_MINUTE-changelog      Partition: 2    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-Group-ONE_MINUTE-changelog      Partition: 3    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+Topic:_confluent-controlcenter-5-3-1-1-Group-THREE_HOURS-changelog      PartitionCount:4        ReplicationFactor:3     Configs:cleanup.policy=compact,delete,message.timestamp.type=CreateTime,min.insync.replicas=2,retention.ms=60566400000,segment.bytes=134217728,message.timestamp.difference.max.ms=9223372036854775807,retention.bytes=-1,delete.retention.ms=60566400000
+        Topic: _confluent-controlcenter-5-3-1-1-Group-THREE_HOURS-changelog     Partition: 0    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-Group-THREE_HOURS-changelog     Partition: 1    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-Group-THREE_HOURS-changelog     Partition: 2    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-Group-THREE_HOURS-changelog     Partition: 3    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+Topic:_confluent-controlcenter-5-3-1-1-KSTREAM-OUTEROTHER-0000000105-store-changelog    PartitionCount:4        ReplicationFactor:3     Configs:cleanup.policy=compact,delete,message.timestamp.type=CreateTime,min.insync.replicas=2,retention.ms=691200000,segment.bytes=134217728,message.timestamp.difference.max.ms=9223372036854775807,retention.bytes=-1,delete.retention.ms=691200000
+        Topic: _confluent-controlcenter-5-3-1-1-KSTREAM-OUTEROTHER-0000000105-store-changelog   Partition: 0    Leader: 2       Replicas: 2,3,1       Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-KSTREAM-OUTEROTHER-0000000105-store-changelog   Partition: 1    Leader: 3       Replicas: 3,1,2       Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-KSTREAM-OUTEROTHER-0000000105-store-changelog   Partition: 2    Leader: 1       Replicas: 1,2,3       Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-KSTREAM-OUTEROTHER-0000000105-store-changelog   Partition: 3    Leader: 2       Replicas: 2,1,3       Isr: 3,1,2
+Topic:_confluent-controlcenter-5-3-1-1-KSTREAM-OUTERTHIS-0000000104-store-changelog     PartitionCount:4        ReplicationFactor:3     Configs:cleanup.policy=compact,delete,message.timestamp.type=CreateTime,min.insync.replicas=2,retention.ms=691200000,segment.bytes=134217728,message.timestamp.difference.max.ms=9223372036854775807,retention.bytes=-1,delete.retention.ms=691200000
+        Topic: _confluent-controlcenter-5-3-1-1-KSTREAM-OUTERTHIS-0000000104-store-changelog    Partition: 0    Leader: 3       Replicas: 3,1,2       Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-KSTREAM-OUTERTHIS-0000000104-store-changelog    Partition: 1    Leader: 1       Replicas: 1,2,3       Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-KSTREAM-OUTERTHIS-0000000104-store-changelog    Partition: 2    Leader: 2       Replicas: 2,3,1       Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-KSTREAM-OUTERTHIS-0000000104-store-changelog    Partition: 3    Leader: 3       Replicas: 3,2,1       Isr: 3,1,2
+Topic:_confluent-controlcenter-5-3-1-1-MetricsAggregateStore-changelog  PartitionCount:4        ReplicationFactor:3     Configs:cleanup.policy=compact,delete,message.timestamp.type=CreateTime,min.insync.replicas=2,retention.ms=691200000,segment.bytes=134217728,message.timestamp.difference.max.ms=9223372036854775807,retention.bytes=-1,delete.retention.ms=691200000
+        Topic: _confluent-controlcenter-5-3-1-1-MetricsAggregateStore-changelog Partition: 0    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-MetricsAggregateStore-changelog Partition: 1    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-MetricsAggregateStore-changelog Partition: 2    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-MetricsAggregateStore-changelog Partition: 3    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+Topic:_confluent-controlcenter-5-3-1-1-MetricsAggregateStore-repartition        PartitionCount:4        ReplicationFactor:3     Configs:cleanup.policy=delete,message.timestamp.type=CreateTime,min.insync.replicas=2,retention.ms=604800000,message.timestamp.difference.max.ms=9223372036854775807,retention.bytes=-1
+        Topic: _confluent-controlcenter-5-3-1-1-MetricsAggregateStore-repartition       Partition: 0    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-MetricsAggregateStore-repartition       Partition: 1    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-MetricsAggregateStore-repartition       Partition: 2    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-MetricsAggregateStore-repartition       Partition: 3    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+Topic:_confluent-controlcenter-5-3-1-1-MonitoringMessageAggregatorWindows-ONE_MINUTE-changelog  PartitionCount:4        ReplicationFactor:3  Configs:cleanup.policy=compact,delete,message.timestamp.type=CreateTime,min.insync.replicas=2,retention.ms=432000000,segment.bytes=134217728,message.timestamp.difference.max.ms=9223372036854775807,retention.bytes=-1,delete.retention.ms=432000000
+        Topic: _confluent-controlcenter-5-3-1-1-MonitoringMessageAggregatorWindows-ONE_MINUTE-changelog Partition: 0    Leader: 1       Replicas: 1,3,2       Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-MonitoringMessageAggregatorWindows-ONE_MINUTE-changelog Partition: 1    Leader: 2       Replicas: 2,1,3       Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-MonitoringMessageAggregatorWindows-ONE_MINUTE-changelog Partition: 2    Leader: 3       Replicas: 3,2,1       Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-MonitoringMessageAggregatorWindows-ONE_MINUTE-changelog Partition: 3    Leader: 1       Replicas: 1,2,3       Isr: 3,1,2
+Topic:_confluent-controlcenter-5-3-1-1-MonitoringMessageAggregatorWindows-ONE_MINUTE-repartition        PartitionCount:4        ReplicationFactor:3   Configs:cleanup.policy=delete,segment.bytes=52428800,retention.ms=-1
+        Topic: _confluent-controlcenter-5-3-1-1-MonitoringMessageAggregatorWindows-ONE_MINUTE-repartition       Partition: 0    Leader: 1    Replicas: 1,2,3  Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-MonitoringMessageAggregatorWindows-ONE_MINUTE-repartition       Partition: 1    Leader: 2    Replicas: 2,3,1  Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-MonitoringMessageAggregatorWindows-ONE_MINUTE-repartition       Partition: 2    Leader: 3    Replicas: 3,1,2  Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-MonitoringMessageAggregatorWindows-ONE_MINUTE-repartition       Partition: 3    Leader: 1    Replicas: 1,3,2  Isr: 3,1,2
+Topic:_confluent-controlcenter-5-3-1-1-MonitoringMessageAggregatorWindows-THREE_HOURS-changelog PartitionCount:4        ReplicationFactor:3  Configs:cleanup.policy=compact,delete,message.timestamp.type=CreateTime,min.insync.replicas=2,retention.ms=60566400000,segment.bytes=134217728,message.timestamp.difference.max.ms=9223372036854775807,retention.bytes=-1,delete.retention.ms=60566400000
+        Topic: _confluent-controlcenter-5-3-1-1-MonitoringMessageAggregatorWindows-THREE_HOURS-changelog        Partition: 0    Leader: 2    Replicas: 2,1,3  Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-MonitoringMessageAggregatorWindows-THREE_HOURS-changelog        Partition: 1    Leader: 3    Replicas: 3,2,1  Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-MonitoringMessageAggregatorWindows-THREE_HOURS-changelog        Partition: 2    Leader: 1    Replicas: 1,3,2  Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-MonitoringMessageAggregatorWindows-THREE_HOURS-changelog        Partition: 3    Leader: 2    Replicas: 2,3,1  Isr: 3,1,2
+Topic:_confluent-controlcenter-5-3-1-1-MonitoringMessageAggregatorWindows-THREE_HOURS-repartition       PartitionCount:4        ReplicationFactor:3   Configs:cleanup.policy=delete,segment.bytes=52428800,retention.ms=-1
+        Topic: _confluent-controlcenter-5-3-1-1-MonitoringMessageAggregatorWindows-THREE_HOURS-repartition      Partition: 0    Leader: 2    Replicas: 2,1,3  Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-MonitoringMessageAggregatorWindows-THREE_HOURS-repartition      Partition: 1    Leader: 3    Replicas: 3,2,1  Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-MonitoringMessageAggregatorWindows-THREE_HOURS-repartition      Partition: 2    Leader: 1    Replicas: 1,3,2  Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-MonitoringMessageAggregatorWindows-THREE_HOURS-repartition      Partition: 3    Leader: 2    Replicas: 2,3,1  Isr: 3,1,2
+Topic:_confluent-controlcenter-5-3-1-1-MonitoringStream-ONE_MINUTE-changelog    PartitionCount:4        ReplicationFactor:3     Configs:cleanup.policy=compact,delete,message.timestamp.type=CreateTime,min.insync.replicas=2,retention.ms=432000000,segment.bytes=134217728,message.timestamp.difference.max.ms=9223372036854775807,retention.bytes=-1,delete.retention.ms=432000000
+        Topic: _confluent-controlcenter-5-3-1-1-MonitoringStream-ONE_MINUTE-changelog   Partition: 0    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-MonitoringStream-ONE_MINUTE-changelog   Partition: 1    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-MonitoringStream-ONE_MINUTE-changelog   Partition: 2    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-MonitoringStream-ONE_MINUTE-changelog   Partition: 3    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+Topic:_confluent-controlcenter-5-3-1-1-MonitoringStream-ONE_MINUTE-repartition  PartitionCount:4        ReplicationFactor:3     Configs:cleanup.policy=delete,segment.bytes=52428800,retention.ms=-1
+        Topic: _confluent-controlcenter-5-3-1-1-MonitoringStream-ONE_MINUTE-repartition Partition: 0    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-MonitoringStream-ONE_MINUTE-repartition Partition: 1    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-MonitoringStream-ONE_MINUTE-repartition Partition: 2    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-MonitoringStream-ONE_MINUTE-repartition Partition: 3    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+Topic:_confluent-controlcenter-5-3-1-1-MonitoringStream-THREE_HOURS-changelog   PartitionCount:4        ReplicationFactor:3     Configs:cleanup.policy=compact,delete,message.timestamp.type=CreateTime,min.insync.replicas=2,retention.ms=60566400000,segment.bytes=134217728,message.timestamp.difference.max.ms=9223372036854775807,retention.bytes=-1,delete.retention.ms=60566400000
+        Topic: _confluent-controlcenter-5-3-1-1-MonitoringStream-THREE_HOURS-changelog  Partition: 0    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-MonitoringStream-THREE_HOURS-changelog  Partition: 1    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-MonitoringStream-THREE_HOURS-changelog  Partition: 2    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-MonitoringStream-THREE_HOURS-changelog  Partition: 3    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+Topic:_confluent-controlcenter-5-3-1-1-MonitoringStream-THREE_HOURS-repartition PartitionCount:4        ReplicationFactor:3     Configs:cleanup.policy=delete,segment.bytes=52428800,retention.ms=-1
+        Topic: _confluent-controlcenter-5-3-1-1-MonitoringStream-THREE_HOURS-repartition        Partition: 0    Leader: 1       Replicas: 1,3,2       Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-MonitoringStream-THREE_HOURS-repartition        Partition: 1    Leader: 2       Replicas: 2,1,3       Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-MonitoringStream-THREE_HOURS-repartition        Partition: 2    Leader: 3       Replicas: 3,2,1       Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-MonitoringStream-THREE_HOURS-repartition        Partition: 3    Leader: 1       Replicas: 1,2,3       Isr: 3,1,2
+Topic:_confluent-controlcenter-5-3-1-1-MonitoringTriggerStore-changelog PartitionCount:4        ReplicationFactor:3     Configs:cleanup.policy=compact,message.timestamp.type=CreateTime,min.insync.replicas=2,retention.ms=691200000,segment.bytes=134217728,message.timestamp.difference.max.ms=9223372036854775807,retention.bytes=-1,delete.retention.ms=691200000
+        Topic: _confluent-controlcenter-5-3-1-1-MonitoringTriggerStore-changelog        Partition: 0    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-MonitoringTriggerStore-changelog        Partition: 1    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-MonitoringTriggerStore-changelog        Partition: 2    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-MonitoringTriggerStore-changelog        Partition: 3    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+Topic:_confluent-controlcenter-5-3-1-1-MonitoringVerifierStore-changelog        PartitionCount:4        ReplicationFactor:3     Configs:cleanup.policy=compact,message.timestamp.type=CreateTime,min.insync.replicas=2,retention.ms=691200000,segment.bytes=134217728,message.timestamp.difference.max.ms=9223372036854775807,retention.bytes=-1,delete.retention.ms=691200000
+        Topic: _confluent-controlcenter-5-3-1-1-MonitoringVerifierStore-changelog       Partition: 0    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-MonitoringVerifierStore-changelog       Partition: 1    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-MonitoringVerifierStore-changelog       Partition: 2    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-MonitoringVerifierStore-changelog       Partition: 3    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+Topic:_confluent-controlcenter-5-3-1-1-TriggerActionsStore-changelog    PartitionCount:4        ReplicationFactor:3     Configs:cleanup.policy=compact,message.timestamp.type=CreateTime,min.insync.replicas=2,retention.ms=691200000,segment.bytes=134217728,message.timestamp.difference.max.ms=9223372036854775807,retention.bytes=-1,delete.retention.ms=691200000
+        Topic: _confluent-controlcenter-5-3-1-1-TriggerActionsStore-changelog   Partition: 0    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-TriggerActionsStore-changelog   Partition: 1    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-TriggerActionsStore-changelog   Partition: 2    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-TriggerActionsStore-changelog   Partition: 3    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+Topic:_confluent-controlcenter-5-3-1-1-TriggerEventsStore-changelog     PartitionCount:4        ReplicationFactor:3     Configs:cleanup.policy=compact,message.timestamp.type=CreateTime,min.insync.replicas=2,retention.ms=691200000,segment.bytes=134217728,message.timestamp.difference.max.ms=9223372036854775807,retention.bytes=-1,delete.retention.ms=691200000
+        Topic: _confluent-controlcenter-5-3-1-1-TriggerEventsStore-changelog    Partition: 0    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-TriggerEventsStore-changelog    Partition: 1    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-TriggerEventsStore-changelog    Partition: 2    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-TriggerEventsStore-changelog    Partition: 3    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+Topic:_confluent-controlcenter-5-3-1-1-actual-group-consumption-rekey   PartitionCount:4        ReplicationFactor:3     Configs:cleanup.policy=delete,message.timestamp.type=LogAppendTime,min.insync.replicas=2,retention.ms=604800000,retention.bytes=-1
+        Topic: _confluent-controlcenter-5-3-1-1-actual-group-consumption-rekey  Partition: 0    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-actual-group-consumption-rekey  Partition: 1    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-actual-group-consumption-rekey  Partition: 2    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-actual-group-consumption-rekey  Partition: 3    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+Topic:_confluent-controlcenter-5-3-1-1-aggregate-topic-partition-store-changelog        PartitionCount:4        ReplicationFactor:3     Configs:cleanup.policy=compact,message.timestamp.type=CreateTime,min.insync.replicas=2,retention.ms=691200000,segment.bytes=67108864,message.timestamp.difference.max.ms=9223372036854775807,retention.bytes=-1,delete.retention.ms=691200000
+        Topic: _confluent-controlcenter-5-3-1-1-aggregate-topic-partition-store-changelog       Partition: 0    Leader: 2       Replicas: 2,3,1       Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-aggregate-topic-partition-store-changelog       Partition: 1    Leader: 3       Replicas: 3,1,2       Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-aggregate-topic-partition-store-changelog       Partition: 2    Leader: 1       Replicas: 1,2,3       Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-aggregate-topic-partition-store-changelog       Partition: 3    Leader: 2       Replicas: 2,1,3       Isr: 3,1,2
+Topic:_confluent-controlcenter-5-3-1-1-aggregatedTopicPartitionTableWindows-ONE_MINUTE-changelog        PartitionCount:4        ReplicationFactor:3   Configs:cleanup.policy=compact,delete,message.timestamp.type=CreateTime,min.insync.replicas=2,retention.ms=432000000,segment.bytes=134217728,message.timestamp.difference.max.ms=9223372036854775807,retention.bytes=-1,delete.retention.ms=432000000
+        Topic: _confluent-controlcenter-5-3-1-1-aggregatedTopicPartitionTableWindows-ONE_MINUTE-changelog       Partition: 0    Leader: 3    Replicas: 3,1,2  Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-aggregatedTopicPartitionTableWindows-ONE_MINUTE-changelog       Partition: 1    Leader: 1    Replicas: 1,2,3  Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-aggregatedTopicPartitionTableWindows-ONE_MINUTE-changelog       Partition: 2    Leader: 2    Replicas: 2,3,1  Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-aggregatedTopicPartitionTableWindows-ONE_MINUTE-changelog       Partition: 3    Leader: 3    Replicas: 3,2,1  Isr: 3,1,2
+Topic:_confluent-controlcenter-5-3-1-1-aggregatedTopicPartitionTableWindows-ONE_MINUTE-repartition      PartitionCount:4        ReplicationFactor:3   Configs:cleanup.policy=delete,segment.bytes=52428800,retention.ms=-1
+        Topic: _confluent-controlcenter-5-3-1-1-aggregatedTopicPartitionTableWindows-ONE_MINUTE-repartition     Partition: 0    Leader: 1    Replicas: 1,3,2  Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-aggregatedTopicPartitionTableWindows-ONE_MINUTE-repartition     Partition: 1    Leader: 2    Replicas: 2,1,3  Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-aggregatedTopicPartitionTableWindows-ONE_MINUTE-repartition     Partition: 2    Leader: 3    Replicas: 3,2,1  Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-aggregatedTopicPartitionTableWindows-ONE_MINUTE-repartition     Partition: 3    Leader: 1    Replicas: 1,2,3  Isr: 3,1,2
+Topic:_confluent-controlcenter-5-3-1-1-aggregatedTopicPartitionTableWindows-THREE_HOURS-changelog       PartitionCount:4        ReplicationFactor:3   Configs:cleanup.policy=compact,delete,message.timestamp.type=CreateTime,min.insync.replicas=2,retention.ms=60566400000,segment.bytes=134217728,message.timestamp.difference.max.ms=9223372036854775807,retention.bytes=-1,delete.retention.ms=60566400000
+        Topic: _confluent-controlcenter-5-3-1-1-aggregatedTopicPartitionTableWindows-THREE_HOURS-changelog      Partition: 0    Leader: 3    Replicas: 3,1,2  Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-aggregatedTopicPartitionTableWindows-THREE_HOURS-changelog      Partition: 1    Leader: 1    Replicas: 1,2,3  Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-aggregatedTopicPartitionTableWindows-THREE_HOURS-changelog      Partition: 2    Leader: 2    Replicas: 2,3,1  Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-aggregatedTopicPartitionTableWindows-THREE_HOURS-changelog      Partition: 3    Leader: 3    Replicas: 3,2,1  Isr: 3,1,2
+Topic:_confluent-controlcenter-5-3-1-1-aggregatedTopicPartitionTableWindows-THREE_HOURS-repartition     PartitionCount:4        ReplicationFactor:3   Configs:cleanup.policy=delete,segment.bytes=52428800,retention.ms=-1
+        Topic: _confluent-controlcenter-5-3-1-1-aggregatedTopicPartitionTableWindows-THREE_HOURS-repartition    Partition: 0    Leader: 3    Replicas: 3,1,2  Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-aggregatedTopicPartitionTableWindows-THREE_HOURS-repartition    Partition: 1    Leader: 1    Replicas: 1,2,3  Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-aggregatedTopicPartitionTableWindows-THREE_HOURS-repartition    Partition: 2    Leader: 2    Replicas: 2,3,1  Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-aggregatedTopicPartitionTableWindows-THREE_HOURS-repartition    Partition: 3    Leader: 3    Replicas: 3,2,1  Isr: 3,1,2
+Topic:_confluent-controlcenter-5-3-1-1-cluster-rekey    PartitionCount:4        ReplicationFactor:3     Configs:cleanup.policy=delete,message.timestamp.type=LogAppendTime,min.insync.replicas=2,retention.ms=604800000,retention.bytes=-1
+        Topic: _confluent-controlcenter-5-3-1-1-cluster-rekey   Partition: 0    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-cluster-rekey   Partition: 1    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-cluster-rekey   Partition: 2    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-cluster-rekey   Partition: 3    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+Topic:_confluent-controlcenter-5-3-1-1-expected-group-consumption-rekey PartitionCount:4        ReplicationFactor:3     Configs:cleanup.policy=delete,message.timestamp.type=LogAppendTime,min.insync.replicas=2,retention.ms=604800000,retention.bytes=-1
+        Topic: _confluent-controlcenter-5-3-1-1-expected-group-consumption-rekey        Partition: 0    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-expected-group-consumption-rekey        Partition: 1    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-expected-group-consumption-rekey        Partition: 2    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-expected-group-consumption-rekey        Partition: 3    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+Topic:_confluent-controlcenter-5-3-1-1-group-aggregate-store-ONE_MINUTE-changelog       PartitionCount:4        ReplicationFactor:3     Configs:cleanup.policy=compact,message.timestamp.type=CreateTime,min.insync.replicas=2,retention.ms=432000000,segment.bytes=67108864,message.timestamp.difference.max.ms=9223372036854775807,retention.bytes=-1,delete.retention.ms=432000000
+        Topic: _confluent-controlcenter-5-3-1-1-group-aggregate-store-ONE_MINUTE-changelog      Partition: 0    Leader: 1       Replicas: 1,3,2       Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-group-aggregate-store-ONE_MINUTE-changelog      Partition: 1    Leader: 2       Replicas: 2,1,3       Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-group-aggregate-store-ONE_MINUTE-changelog      Partition: 2    Leader: 3       Replicas: 3,2,1       Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-group-aggregate-store-ONE_MINUTE-changelog      Partition: 3    Leader: 1       Replicas: 1,2,3       Isr: 3,1,2
+Topic:_confluent-controlcenter-5-3-1-1-group-aggregate-store-THREE_HOURS-changelog      PartitionCount:4        ReplicationFactor:3     Configs:cleanup.policy=compact,message.timestamp.type=CreateTime,min.insync.replicas=2,retention.ms=60566400000,segment.bytes=67108864,message.timestamp.difference.max.ms=9223372036854775807,retention.bytes=-1,delete.retention.ms=60566400000
+        Topic: _confluent-controlcenter-5-3-1-1-group-aggregate-store-THREE_HOURS-changelog     Partition: 0    Leader: 3       Replicas: 3,1,2       Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-group-aggregate-store-THREE_HOURS-changelog     Partition: 1    Leader: 1       Replicas: 1,2,3       Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-group-aggregate-store-THREE_HOURS-changelog     Partition: 2    Leader: 2       Replicas: 2,3,1       Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-group-aggregate-store-THREE_HOURS-changelog     Partition: 3    Leader: 3       Replicas: 3,2,1       Isr: 3,1,2
+Topic:_confluent-controlcenter-5-3-1-1-group-stream-extension-rekey     PartitionCount:4        ReplicationFactor:3     Configs:cleanup.policy=delete,message.timestamp.type=LogAppendTime,min.insync.replicas=2,retention.ms=604800000,retention.bytes=-1
+        Topic: _confluent-controlcenter-5-3-1-1-group-stream-extension-rekey    Partition: 0    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-group-stream-extension-rekey    Partition: 1    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-group-stream-extension-rekey    Partition: 2    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-group-stream-extension-rekey    Partition: 3    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+Topic:_confluent-controlcenter-5-3-1-1-metrics-trigger-measurement-rekey        PartitionCount:4        ReplicationFactor:3     Configs:cleanup.policy=delete,message.timestamp.type=LogAppendTime,min.insync.replicas=2,retention.ms=604800000,retention.bytes=-1
+        Topic: _confluent-controlcenter-5-3-1-1-metrics-trigger-measurement-rekey       Partition: 0    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-metrics-trigger-measurement-rekey       Partition: 1    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-metrics-trigger-measurement-rekey       Partition: 2    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-metrics-trigger-measurement-rekey       Partition: 3    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+Topic:_confluent-controlcenter-5-3-1-1-monitoring-aggregate-rekey-store-changelog       PartitionCount:4        ReplicationFactor:3     Configs:cleanup.policy=compact,message.timestamp.type=CreateTime,min.insync.replicas=2,retention.ms=691200000,segment.bytes=67108864,message.timestamp.difference.max.ms=9223372036854775807,retention.bytes=-1,delete.retention.ms=691200000
+        Topic: _confluent-controlcenter-5-3-1-1-monitoring-aggregate-rekey-store-changelog      Partition: 0    Leader: 3       Replicas: 3,1,2       Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-monitoring-aggregate-rekey-store-changelog      Partition: 1    Leader: 1       Replicas: 1,2,3       Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-monitoring-aggregate-rekey-store-changelog      Partition: 2    Leader: 2       Replicas: 2,3,1       Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-monitoring-aggregate-rekey-store-changelog      Partition: 3    Leader: 3       Replicas: 3,2,1       Isr: 3,1,2
+Topic:_confluent-controlcenter-5-3-1-1-monitoring-message-rekey-store   PartitionCount:4        ReplicationFactor:3     Configs:cleanup.policy=delete,message.timestamp.type=LogAppendTime,min.insync.replicas=2,retention.ms=604800000,retention.bytes=-1
+        Topic: _confluent-controlcenter-5-3-1-1-monitoring-message-rekey-store  Partition: 0    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-monitoring-message-rekey-store  Partition: 1    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-monitoring-message-rekey-store  Partition: 2    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-monitoring-message-rekey-store  Partition: 3    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+Topic:_confluent-controlcenter-5-3-1-1-monitoring-trigger-event-rekey   PartitionCount:4        ReplicationFactor:3     Configs:cleanup.policy=delete,message.timestamp.type=LogAppendTime,min.insync.replicas=2,retention.ms=604800000,retention.bytes=-1
+        Topic: _confluent-controlcenter-5-3-1-1-monitoring-trigger-event-rekey  Partition: 0    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-monitoring-trigger-event-rekey  Partition: 1    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-monitoring-trigger-event-rekey  Partition: 2    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: _confluent-controlcenter-5-3-1-1-monitoring-trigger-event-rekey  Partition: 3    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+Topic:_confluent-metrics        PartitionCount:12       ReplicationFactor:3     Configs:max.message.bytes=10485760,message.timestamp.type=CreateTime,min.insync.replicas=2,retention.ms=259200000,segment.ms=14400000,retention.bytes=-1
+        Topic: _confluent-metrics       Partition: 0    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: _confluent-metrics       Partition: 1    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: _confluent-metrics       Partition: 2    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: _confluent-metrics       Partition: 3    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: _confluent-metrics       Partition: 4    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: _confluent-metrics       Partition: 5    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: _confluent-metrics       Partition: 6    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: _confluent-metrics       Partition: 7    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: _confluent-metrics       Partition: 8    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: _confluent-metrics       Partition: 9    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: _confluent-metrics       Partition: 10   Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: _confluent-metrics       Partition: 11   Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+Topic:_confluent-monitoring     PartitionCount:12       ReplicationFactor:3     Configs:cleanup.policy=delete,message.timestamp.type=LogAppendTime,min.insync.replicas=2,retention.ms=259200000,message.timestamp.difference.max.ms=9223372036854775807,retention.bytes=-1
+        Topic: _confluent-monitoring    Partition: 0    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: _confluent-monitoring    Partition: 1    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: _confluent-monitoring    Partition: 2    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: _confluent-monitoring    Partition: 3    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: _confluent-monitoring    Partition: 4    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: _confluent-monitoring    Partition: 5    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: _confluent-monitoring    Partition: 6    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: _confluent-monitoring    Partition: 7    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: _confluent-monitoring    Partition: 8    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: _confluent-monitoring    Partition: 9    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: _confluent-monitoring    Partition: 10   Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: _confluent-monitoring    Partition: 11   Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+Topic:ajAuditTopic      PartitionCount:3        ReplicationFactor:3     Configs:
+        Topic: ajAuditTopic     Partition: 0    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: ajAuditTopic     Partition: 1    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: ajAuditTopic     Partition: 2    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+Topic:connect-configs   PartitionCount:1        ReplicationFactor:3     Configs:cleanup.policy=compact
+        Topic: connect-configs  Partition: 0    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+Topic:connect-offsets   PartitionCount:25       ReplicationFactor:3     Configs:cleanup.policy=compact
+        Topic: connect-offsets  Partition: 0    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: connect-offsets  Partition: 1    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: connect-offsets  Partition: 2    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: connect-offsets  Partition: 3    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: connect-offsets  Partition: 4    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: connect-offsets  Partition: 5    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: connect-offsets  Partition: 6    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: connect-offsets  Partition: 7    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: connect-offsets  Partition: 8    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: connect-offsets  Partition: 9    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: connect-offsets  Partition: 10   Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: connect-offsets  Partition: 11   Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: connect-offsets  Partition: 12   Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: connect-offsets  Partition: 13   Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: connect-offsets  Partition: 14   Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: connect-offsets  Partition: 15   Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: connect-offsets  Partition: 16   Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: connect-offsets  Partition: 17   Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: connect-offsets  Partition: 18   Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: connect-offsets  Partition: 19   Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: connect-offsets  Partition: 20   Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: connect-offsets  Partition: 21   Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: connect-offsets  Partition: 22   Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: connect-offsets  Partition: 23   Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: connect-offsets  Partition: 24   Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+Topic:connect-status    PartitionCount:5        ReplicationFactor:3     Configs:cleanup.policy=compact
+        Topic: connect-status   Partition: 0    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: connect-status   Partition: 1    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: connect-status   Partition: 2    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: connect-status   Partition: 3    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: connect-status   Partition: 4    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+Topic:dev-ops   PartitionCount:5        ReplicationFactor:3     Configs:cleanup.policy=delete,max.message.bytes=1000012,min.insync.replicas=2,retention.ms=604800000,delete.retention.ms=86400000,retention.bytes=10737418240
+        Topic: dev-ops  Partition: 0    Leader: 2       Replicas: 2,1,3 Isr: 3,1,2
+        Topic: dev-ops  Partition: 1    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: dev-ops  Partition: 2    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2
+        Topic: dev-ops  Partition: 3    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: dev-ops  Partition: 4    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+Topic:test1     PartitionCount:5        ReplicationFactor:3     Configs:
+        Topic: test1    Partition: 0    Leader: 3       Replicas: 3,1,2 Isr: 3,1,2
+        Topic: test1    Partition: 1    Leader: 1       Replicas: 1,2,3 Isr: 3,1,2
+        Topic: test1    Partition: 2    Leader: 2       Replicas: 2,3,1 Isr: 3,1,2
+        Topic: test1    Partition: 3    Leader: 3       Replicas: 3,2,1 Isr: 3,1,2
+        Topic: test1    Partition: 4    Leader: 1       Replicas: 1,3,2 Isr: 3,1,2

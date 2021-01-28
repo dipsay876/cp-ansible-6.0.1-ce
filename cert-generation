@@ -1,0 +1,71 @@
+Manual – keystore and truststore creation from : ca-chain.cert.pem / kafkatrn.incometax.gov.in.cert.pem / kafkatrn.incometax.gov.in.key.pem
+………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………..
+steps:
+1.	TASK [confluent.ssl : Count Certificates in Ca Cert]
+                grep -c "END CERTIFICATE" ca-chain.cert.pem
+
+2.	TASK [confluent.ssl : Set the Certificate Count Var]
+         Ex :  set in a variable if required else just remember to cross verify with trustsotre 2
+3.	TASK [confluent.ssl : Create Truststore and Import the CA Chain] : include role ---> confluent.ssl/tasks/import_ca_chain.yml
+
+4.	TASK [confluent.ssl : Split CA Certificate Bundle into Cert Files] 
+
+ cat ca-chain.cert.pem | awk 'split_after==1{n++;split_after=0} /-----END CERTIFICATE-----/                               {split_after=1} {print > ("/home/devopsuser/new-cert-uat/trustCA/ca" n ".pem")}'
+
+5.	TASK [confluent.ssl : Create Truststore with Certificates]
+
+for file in /home/devopsuser/new-cert-uat/trustCA/*; do
+        fileName="${file##*/}"
+        keytool -noprompt -keystore /home/devopsuser/new-cert-uat/private/truststore.jks \
+            -alias "$fileName" \
+            -trustcacerts -import -file "$file" \
+            -deststorepass ITDCPCKAFKATRUSTSTOREPASS2021
+    Done
+
+
+
+6.	TASK [confluent.ssl : Put Key and Signed Cert into pkcs12 Format with Key Password]
+
+    openssl pkcs12 -export \
+      -in kafkaut.incometax.gov.in.cert.pem \
+      -inkey kafkaut.incometax.gov.in.key.pem \
+      -passin pass:iec2020ICApassword \
+      -out /home/devopsuser/new-cert-uat/private/client.p12 \
+      -name kafkassl \
+      -passout pass:mykeypassword
+	  
+7.	TASK [confluent.ssl : Create Keystore]
+
+keytool -importkeystore \
+      -srckeystore /home/devopsuser/new-cert-uat/private/client.p12 \
+      -srcstoretype pkcs12 \
+      -srcstorepass mykeypassword \
+      -destkeystore /home/devopsuser/new-cert-uat/private/keystore.jks \
+      -deststoretype pkcs12 \
+      -deststorepass ITDCPCKAFKAKEYSTOREPASS2021 \
+      -destkeypass ITDCPCKAFKAKEYSTOREPASS2021 
+
+
+Variables :
+………………………
+
+ca_cert_path: ca-chain.cert.pem
+truststore_storepass: ITDCPCKAFKATRUSTSTOREPASS2021
+cert_path: kafkaut.incometax.gov.in.key.pem
+key_path: kafkaut.incometax.gov.in.key.pem
+ssl_key_password: iec2020ICApassword
+
+
+
+
+
+
+8.	TASK [confluent.ssl : Import the CA Cert into Keystore] 
+
+ keytool -noprompt -keystore /home/devopsuser/new-cert-uat/private/keystore.jks \
+      -storetype pkcs12 \
+      -alias CARoot \
+      -import -file ca-chain.cert.pem \
+      -storepass ITDCPCKAFKAKEYSTOREPASS2021 \
+      -keypass ITDCPCKAFKAKEYSTOREPASS2021
+
